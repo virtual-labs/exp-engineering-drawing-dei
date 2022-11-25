@@ -12,6 +12,26 @@ function step3(){
     document.getElementById("Step2").style.visibility = "hidden";
     document.getElementById("png18").style.visibility = "hidden";
 }
+function setUp(){
+    document.getElementById("setup").style.visibility = "visible";
+    document.getElementById("Step1").style.visibility = "hidden";
+}
+function board(){
+    document.getElementById("board").style.visibility = "visible";
+    document.getElementById("Step1").style.visibility = "hidden";
+}
+function sheet(){
+    document.getElementById("sheet").style.visibility = "visible";
+    document.getElementById("Step1").style.visibility = "hidden";
+}
+function block(){
+    document.getElementById("block").style.visibility = "visible";
+    document.getElementById("Step1").style.visibility = "hidden";
+}
+function pencil(){
+    document.getElementById("pencil").style.visibility = "visible";
+    document.getElementById("Step1").style.visibility = "hidden";
+}
 function move() {
     document.getElementById("png1").style.animationPlayState = "running";
     document.getElementById("png1").style.animationIterationCount = "1";
@@ -33,6 +53,7 @@ function myGreeting() {
     document.getElementById("png6").style.visibility = "visible";
     document.getElementById("png7").style.visibility = "visible";
     document.getElementById("wr1").style.visibility = "visible";
+    document.getElementById("aboutClip").style.visibility = "visible";
     document.getElementById("png13").style.visibility = "visible";
 
     myStopFunction();
@@ -76,6 +97,10 @@ function draftermove() {
     document.getElementById("png13").style.visibility = "hidden";
     document.getElementById("png14").style.animationPlayState = "running";
     document.getElementById("png14").style.animationIterationCount = "1";
+    document.getElementById("png12").style.visibility = "hidden";
+    document.getElementById("wr1").style.visibility = "hidden";
+    document.getElementById("aboutClip").style.visibility = "hidden";
+    document.getElementById("done").style.visibility = "visible";
 }
 
 
