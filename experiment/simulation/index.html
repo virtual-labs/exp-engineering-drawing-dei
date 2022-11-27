@@ -15,6 +15,30 @@
 			cursor: pointer;
 		}
 
+		#drafter1 {
+			position: absolute;
+			margin-left: -155px;
+			margin-top: 80px
+		}
+
+		#drafterpng {
+			position: relative;
+			margin-left: 556px;
+			top: 69px;
+		}
+
+
+		#drafterpng2 {
+			position: relative;
+			margin-left: 63px;
+			margin-top: -554px;
+
+		}
+		#arrow {
+			position: absolute;
+			margin-left: 57px;
+    top: 29px;
+		}
 		#png {
 			position: absolute;
 			margin-left: 24px;
@@ -116,24 +140,28 @@
 			margin-top: 42px;
 
 		}
+
 		#sheetpng {
 			position: absolute;
 			margin-left: 138px;
 			margin-top: 42px;
 
 		}
+
 		#titlepng {
 			position: absolute;
 			margin-left: 138px;
 			margin-top: 42px;
 
 		}
+
 		#pencilpng {
 			position: absolute;
 			margin-left: 138px;
 			margin-top: 42px;
 
 		}
+
 		#png16 {
 			position: absolute;
 			margin-left: 250px;
@@ -181,73 +209,94 @@
 
 			background-color: hsl(34, 30%, 89%);
 		}
+
 		#aboutboard {
 
-position: relative;
+			position: relative;
 
-left: 97px;
-top: 373px;
+			left: 97px;
+			top: 373px;
 
-height: 100px;
+			height: 100px;
 
-width: 600px;
+			width: 600px;
 
-border: solid 1px;
+			border: solid 1px;
 
-background-color: hsl(34, 30%, 89%);
-}
-#aboutsheet {
+			background-color: hsl(34, 30%, 89%);
+		}
 
-position: relative;
+		#aboutsheet {
 
-left: 97px;
-top: 373px;
+			position: relative;
 
-height: 100px;
+			left: 97px;
+			top: 373px;
 
-width: 600px;
+			height: 100px;
 
-border: solid 1px;
+			width: 600px;
 
-background-color: hsl(34, 30%, 89%);
-}
-#aboutblock {
+			border: solid 1px;
 
-position: relative;
+			background-color: hsl(34, 30%, 89%);
+		}
 
-left: 97px;
-top: 373px;
+		#aboutblock {
 
-height: 100px;
+			position: relative;
 
-width: 600px;
+			left: 97px;
+			top: 373px;
 
-border: solid 1px;
+			height: 100px;
 
-background-color: hsl(34, 30%, 89%);
-}
-#aboutpencil {
+			width: 600px;
 
-position: relative;
+			border: solid 1px;
 
-left: 97px;
-top: 373px;
+			background-color: hsl(34, 30%, 89%);
+		}
 
-height: 130px;
+		#aboutpencil {
 
-width: 600px;
+			position: relative;
 
-border: solid 1px;
+			left: 97px;
+			top: 373px;
 
-background-color: hsl(34, 30%, 89%);
-}
+			height: 130px;
+
+			width: 600px;
+
+			border: solid 1px;
+
+			background-color: hsl(34, 30%, 89%);
+		}
+
+		#aboutdrafter {
+
+			position: relative;
+
+			left: 97px;
+			top: 150px;
+
+			height: 130px;
+
+			width: 600px;
+
+			border: solid 1px;
+
+			background-color: hsl(34, 30%, 89%);
+		}
+
 		#aboutClip {
 			position: absolute;
 			left: 57px;
 			top: 68px;
 
-			height: 100px;
-
+			height: 120px;
+padding-left: 10px;
 			width: 400px;
 
 			border: solid 1px;
@@ -264,6 +313,18 @@ background-color: hsl(34, 30%, 89%);
 			border: solid 3px;
 			background-color: hsl(14deg 96% 49% / 66%);
 			text-align: center;
+		}
+
+		.back {
+			position: absolute;
+			left: 12px;
+			top: 503px;
+			cursor: pointer;
+			font-size: 15px;
+			background-color: #2150a0;
+			padding-top: 5px;
+			color: #FFF;
+			padding-bottom: 5px
 		}
 
 		/* animation part */
@@ -302,6 +363,17 @@ background-color: hsl(34, 30%, 89%);
 			}
 		}
 
+		@keyframes moveDrafter1 {
+
+			0% {
+				top: 0px;
+			}
+
+			100% {
+				top: 40px;
+			}
+		}
+
 		@keyframes moveclip1 {
 
 			0% {
@@ -315,187 +387,214 @@ background-color: hsl(34, 30%, 89%);
 	</style>
 </head>
 
-<body>
 
 
-	<body style="margin:0; font-family: verdana; color: #000;">
-		<table align="center">
-			<tr>
-				<td>
-					<div id="simscreen">
-						<div id="title">
-							<h3>Introduction to Engineering Drawing</h3>
-						</div>
 
-						<div class="Mainstep" id="Step" style="visibility: visible;z-index: 1000; ">
+<body style="margin:0; font-family: verdana; color: #000;">
+	<table align="center">
+		<tr>
+			<td>
+				<div id="simscreen">
+					<div id="title">
+						<h3 id="headtitle">Introduction to Engineering Drawing</h3>
+					</div>
+
+					<div class="Mainstep" id="Step" style="visibility: visible;z-index: 1000; ">
 
 
-							<p class="incanvas" style="position: absolute; top: 55px; left: 0px;font-size:15px;">
-								<strong>Objective:</strong>
-							</p>
+						<p class="incanvas" style="position: absolute; top: 55px; left: 0px;font-size:15px;">
+							<strong>Objective:</strong>
+						</p>
 
-							<p class="incanvas" style="position: absolute; top: 85px; left: 0px;font-size:14px;">To
-								study the use of various instruments required in Engineering Drawing</p></br>
+						<p class="incanvas" style="position: absolute; top: 85px; left: 0px;font-size:14px;">To
+							study the use of various instruments required in Engineering Drawing</p></br>
 
-							<p class="incanvas" style="position: absolute; top: 115px; left: 0px;font-size:15px;">
-								<strong>Instruments used:</strong>
-							</p>
-							<img id="inst" class="board" src="images/instruments.png" alt="picture" width="550"
-								height="320" style="padding-left: 4% ; margin-top: 140px;"><br>
-							<input type="button" id="next"
-								style="position:absolute; left:662px; top:320px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
-								value="&nbsp;Start Here&nbsp;" onclick="step1()" />
-						</div>
-						<!-- step 1 -->
-						<div class="Mainstep" id="Step1" style="visibility: hidden;z-index: 1000; ">
-							<span
-								style="position: absolute; left:40px; top: 30px; color:black; font-size: 1.3rem; font-weight: bold;"><i
-									class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Choose any one of the
-								following: </span><br><br>
+						<p class="incanvas" style="position: absolute; top: 115px; left: 0px;font-size:15px;">
+							<strong>Instruments used:</strong>
+						</p>
+						<img id="inst" class="board" src="images/instruments.png" alt="picture" width="550" height="320"
+							style="padding-left: 4% ; margin-top: 140px;"><br>
+						<input type="button" id="next"
+							style="position:absolute; left:662px; top:320px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
+							value="&nbsp;Start Here&nbsp;" onclick="step1()" />
+					</div>
+					<!-- step 1 -->
+					<div class="Mainstep" id="Step1" style="visibility: hidden;z-index: 1000; ">
+						<span
+							style="position: absolute; left:40px; top: 30px; color:black; font-size: 1.3rem; font-weight: bold;"><i
+								class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Components of Engineering
+							Drawing:</span><br><br>
 
-							<div class="sub-header" style="position: relative; margin-top:  1rem;">
+						<div class="sub-header" style="position: relative; margin-top:  1rem;">
 
-								<div class="middle1" style="position: absolute; margin-left: 60px; margin-top: 20px;">
-									<!-- <p>Choose the problem Statement</p> -->
-									<ol>
-										<li onclick="board()"><span style="color:blue"><u>Drawing Board</u></span></li>
-										<br>
-										<li onclick="sheet()"><span style="color:blue"><u>Drawing Sheet</u></span></li>
-										<br>
-										<li onclick="block()"><span style="color:blue"><u>Title Block</u></span></li>
-										<br>
-										<li onclick="drafter()"><span style="color:blue"><u>Mini Drafter</u></span></li>
-										<br>
-										<li onclick="setUp()"><span style="color:blue"><u>Set up Drawing
-													table</u></span></li>
-										<br>
-										<li onclick="pencil()"><span style="color:blue"><u>Pencils</u></span></li>
-										<br>
-										<li onclick="square()"><span style="color:blue"><u>Set square</u></span></li>
-										<br>
-										<li onclick="lines()"><span style="color:blue"><u>Lines</u></span></li>
-									</ol>
-								</div>
+							<div class="middle1" style="position: absolute; margin-left: 60px; margin-top: 20px;">
+								<!-- <p>Choose the problem Statement</p> -->
+								<ol>
+									<li onclick="board()"><span style="color:blue"><u>Drawing Board</u></span></li>
+									<br>
+									<li onclick="sheet()"><span style="color:blue"><u>Drawing Sheet</u></span></li>
+									<br>
+									<li onclick="block()"><span style="color:blue"><u>Title Block</u></span></li>
+									<br>
+									<li onclick="drafter()"><span style="color:blue"><u>Mini Drafter</u></span></li>
+									<br>
+									<li onclick="setUp()"><span style="color:blue"><u>Set up Drawing
+												table</u></span></li>
+									<br>
+									<li onclick="pencil()"><span style="color:blue"><u>Pencils</u></span></li>
+									<br>
+									<li onclick="square()"><span style="color:blue"><u>Set square</u></span></li>
+									<br>
+									<li onclick="lines()"><span style="color:blue"><u>Lines</u></span></li>
+								</ol>
 							</div>
 						</div>
-						<!--board-->
-						<div class="Mainstep" id="board" style="visibility: hidden" ">
+					</div>
+					<!--board-->
+					<div class="Mainstep" id="board" style="visibility: hidden" ">
 
 							<img id="boardpng" class="board" src="images/drawing board.png" alt="picture" width="500" height="300"><br>
-							<div id="aboutboard">
-								<ul>
-									<li>Made of well seasoned softwood of about 25 mm thick.</li>
-									<li>The standard size of board depends on the size of drawing sheet size
-										required.&nbsp;</li>
-								</ul>
-							</div>
+						<div id="aboutboard">
+							<ul>
+								<li>Made of well seasoned softwood of about 25 mm thick.</li>
+								<li>The standard size of board depends on the size of drawing sheet size
+									required.&nbsp;</li>
+							</ul>
 						</div>
-						<!--sheet-->
-						<div class="Mainstep" id="sheet" style="visibility: hidden">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+					</div>
+					<!--sheet-->
+					<div class="Mainstep" id="sheet" style="visibility: hidden">
 
-							<img id="sheetpng" class="board" src="images/output-onlinegiftools (29).gif" alt="picture" width="500" height="300"><br>
-							<div id="aboutsheet">
-								<ul>
-									<li>The standard drawing sheet sizes are arrived at on the basic Principal of x: y = 1: 2^ (1/2) and xy = 1
-										where x and y are the sides of the sheet.</li>
-									<li>For class work, use of A2 size drawing sheet is preferred.</li>
-								</ul>
-							</div>
+						<img id="sheetpng" class="board" src="images/output-onlinegiftools (29).gif" alt="picture"
+							width="500" height="300"><br>
+						<div id="aboutsheet">
+							<ul>
+								<li>The standard drawing sheet sizes are arrived at on the basic Principal of x: y =
+									1: 2^ (1/2) and xy = 1
+									where x and y are the sides of the sheet.</li>
+								<li>For class work, use of A2 size drawing sheet is preferred.</li>
+							</ul>
 						</div>
-						<!--title-->
-						<div class="Mainstep" id="block" style="visibility: hidden">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+					</div>
+					<!--title-->
+					<div class="Mainstep" id="block" style="visibility: hidden">
 
-							<img id="titlepng" class="board" src="images/Slide17.PNG" alt="picture" width="500" height="300"><br>
-							<div id="aboutblock">
-								<ul>
-									<li>The title block should lie within the drawing space at the bottom right hand comer of the sheet.</li>
-									<li>The
-										title block can have a maximum length of 170 mm and width of 65mm.</li>
-								</ul>
-							</div>
+						<img id="titlepng" class="board" src="images/Slide17.PNG" alt="picture" width="500"
+							height="300"><br>
+						<div id="aboutblock">
+							<ul>
+								<li>The title block should lie within the drawing space at the bottom right hand
+									comer of the sheet.</li>
+								<li>The
+									title block can have a maximum length of 170 mm and width of 65mm.</li>
+							</ul>
 						</div>
-						<!--setup-->
-						<div class="Mainstep" id="setup" style="visibility: hidden;">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+					</div>
+					<!--drafter-->
+					<div class="Mainstep" id="drafter" style="visibility: hidden">
+						<span id="draftertxt" style="position: relative; left:80px; top: 35px; "><i class="fa fa-hand-o-right"
+								aria-hidden="true"></i>&nbsp;Click on the drafter to place it.</span>
+						<img id="drafter1" class="board" src="images/board1.png" alt="picture" width="400"
+							height="280"><br>
+							<img id="arrow" class="board" src="images/arrow.gif" alt="picture" width="30" height="30">
+						<img id="drafterpng" class="board" src="images/drafter.png" alt="picture" width="200"
+							height="200" onclick="draftermove1()">
+						<img id="drafterpng2" class="board" src="images/DRAFTER1.png" alt="picture" width="200"
+							height="200"
+							style="visibility: hidden;animation: moveDrafter1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
 
-							<span id="wr" style="position: relative; left:80px; top: 35px; "><i
-									class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Place drawing sheet</span>
-							<span id="wr1" style="position: relative; left: -90px; top: 35px; visibility: hidden; "><i
-									class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Click on clips and mini
-								drafter to place them</span>
-							<div id="aboutClip" style="visibility: hidden;">
-								<ul>
-									<li>To fix the drawing sheet to the board clips are used.</li>
-									<li>Clips are used at all the four corners of the drawing board to clamp the paper.
-									</li>
-								</ul>
-							</div>
-							<div id="done" style="visibility: hidden;">
-								<span style="color: yellow; font-size:30px"><i class="fa fa-hand-o-right"
-										aria-hidden="true"></i>&nbsp;Setup Done</span>
-							</div>
-							<div class="sub-header" style="position: relative; margin-top:  2rem;">
+						<div id="aboutdrafter">
+							<ul>
+								<li>The title block should lie within the drawing space at the bottom right hand
+									comer of the sheet.</li>
+								<li>The
+									title block can have a maximum length of 170 mm and width of 65mm.</li>
+							</ul>
+						</div>
+						<input type="button" class="back" id="backid2" style="visibility: hidden;" value="&nbsp;Back&nbsp;" onclick="step1()" />
+					</div>
+					<!--setup-->
+					<div class="Mainstep" id="setup" style="visibility: hidden;">
+
+						<span id="wr" style="position: relative; left:80px; top: 35px; "><i class="fa fa-hand-o-right"
+								aria-hidden="true"></i>&nbsp;Place drawing sheet</span>
+						<span id="wr1" style="position: relative; left: -90px; top: 35px; visibility: hidden; "><i
+								class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Click on clips and mini
+							drafter to place them</span>
+						<div id="aboutClip" style="visibility: hidden;">
+							<span style="position: relative;"><i class="fa fa-hand-o-right" aria-hidden="true"></i><strong>Drawing Clips:</strong></span>
+							<ul>
+								<li>To fix the drawing sheet to the board clips are used.</li>
+								<li>Clips are used at all the four corners of the drawing board to clamp the paper.
+								</li>
+							</ul>
+						</div>
+						<div id="done" style="visibility: hidden;">
+							<span style="color: yellow; font-size:30px"><i class="fa fa-hand-o-right"
+									aria-hidden="true"></i>&nbsp;Setup Done</span>
+						</div>
+						<div class="sub-header" style="position: relative; margin-top:  2rem;">
 
 
-								<img id="png" class="board" src="images/drawing board.png" alt="picture" width="375"
-									height="245">
-								<img id="png1" class="board" src="images/small sheet.png" alt="picture" width="350"
-									height="220" style=" animation: move 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;
+							<img id="png" class="board" src="images/drawing board.png" alt="picture" width="375"
+								height="245">
+							<img id="png1" class="board" src="images/small sheet.png" alt="picture" width="350"
+								height="220" style="animation: move 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;
                                     " onclick="move()">
-								<img id="png2" class="board" src="images/sheet.png" alt="picture" width="350"
-									height="220" style="visibility: hidden;">
-								<img id="png3" class="board" src="images/arrow.gif" alt="picture" width="170"
-									height="70">
-								<img id="png4" class="board" src="images/3D Clips.png" alt="picture" width="96"
-									height="80" style="visibility: hidden;" onclick="clipmove()">
-								<img id="png5" class="board" src="images/3D Clips.png" alt="picture" width="96"
-									height="80" style="visibility: hidden;" onclick="clipmove1()">
-								<img id="png6" class="board" src="images/3D Clips.png" alt="picture" width="96"
-									height="80" style="visibility: hidden;" onclick="clipmove2()">
-								<img id="png7" class="board" src="images/3D Clips.png" alt="picture" width="96"
-									height="80" style="visibility: hidden;" onclick="clipmove3()">
-								<img id="png8" class="board" src="images/clips.png" alt="picture" width="15" height="25"
-									style="visibility: hidden;animation: moveclip 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-								<img id="png9" class="board" src="images/clips.png" alt="picture" width="15" height="25"
-									style="visibility: hidden;animation: moveclip 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-								<img id="png10" class="board" src="images/cclip.png" alt="picture" width="15"
-									height="25"
-									style="visibility: hidden;animation: moveclip1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-								<img id="png11" class="board" src="images/cclip.png" alt="picture" width="15"
-									height="25"
-									style="visibility: hidden;animation: moveclip1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-								<img id="png12" class="board" src="images/arrow.gif" alt="picture" width="30"
-									height="30">
-								<img id="png13" class="board" src="images/drafter.png" alt="picture" width="200"
-									height="200" style="visibility: hidden;" onclick="draftermove()">
-								<img id="png14" class="board" src="images/DRAFTER1.png" alt="picture" width="200"
-									height="200"
-									style="visibility: hidden;animation: moveDrafter 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+							<img id="png2" class="board" src="images/sheet.png" alt="picture" width="350" height="220"
+								style="visibility: hidden;">
+							<img id="png3" class="board" src="images/arrow.gif" alt="picture" width="170" height="70">
+							<img id="png4" class="board" src="images/3D Clips.png" alt="picture" width="96" height="80"
+								style="visibility: hidden;" onclick="clipmove()">
+							<img id="png5" class="board" src="images/3D Clips.png" alt="picture" width="96" height="80"
+								style="visibility: hidden;" onclick="clipmove1()">
+							<img id="png6" class="board" src="images/3D Clips.png" alt="picture" width="96" height="80"
+								style="visibility: hidden;" onclick="clipmove2()">
+							<img id="png7" class="board" src="images/3D Clips.png" alt="picture" width="96" height="80"
+								style="visibility: hidden;" onclick="clipmove3()">
+							<img id="png8" class="board" src="images/clips.png" alt="picture" width="15" height="25"
+								style="visibility: hidden;animation: moveclip 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+							<img id="png9" class="board" src="images/clips.png" alt="picture" width="15" height="25"
+								style="visibility: hidden;animation: moveclip 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+							<img id="png10" class="board" src="images/cclip.png" alt="picture" width="15" height="25"
+								style="visibility: hidden;animation: moveclip1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+							<img id="png11" class="board" src="images/cclip.png" alt="picture" width="15" height="25"
+								style="visibility: hidden;animation: moveclip1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+							<img id="png12" class="board" src="images/arrow.gif" alt="picture" width="30" height="30">
+							<img id="png13" class="board" src="images/drafter.png" alt="picture" width="200"
+								height="200" style="visibility: hidden;" onclick="draftermove()">
+							<img id="png14" class="board" src="images/DRAFTER1.png" alt="picture" width="200"
+								height="200"
+								style="visibility: hidden;animation: moveDrafter 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
 
-							</div>
 						</div>
-						<!--pencil-->
-						<div class="Mainstep" id="pencil" style="visibility: hidden">
+						
+						<input type="button" class="back" id="backid" style="visibility: hidden;" value="&nbsp;Back&nbsp;" onclick="step1()" />
+					</div>
+					<!--pencil-->
+					<div class="Mainstep" id="pencil" style="visibility: hidden">
 
-							<img id="pencilpng" class="board" src="images/.gif" alt="picture" width="500" height="300"><br>
-							<div id="aboutpencil">
-								<ul>
-									<li>HB Soft grade for Border lines, lettering and free sketching</li>
-									<li>H Medium grade for Visible outlines, visible edges and boundary lines.</li>
-									<li>2H Hard grade for construction lines, Dimension lines, Leader lines, Extension lines, Centre
-										lines, Hatching lines and Hidden lines.</li>
-								</ul>
-							</div>
+						<img id="pencilpng" class="board" src="images/.gif" alt="picture" width="500" height="300"><br>
+						<div id="aboutpencil">
+							<ul>
+								<li>HB Soft grade for Border lines, lettering and free sketching</li>
+								<li>H Medium grade for Visible outlines, visible edges and boundary lines.</li>
+								<li>2H Hard grade for construction lines, Dimension lines, Leader lines, Extension
+									lines, Centre
+									lines, Hatching lines and Hidden lines.</li>
+							</ul>
 						</div>
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
 					</div>
-					</div>
-					<br>
-					<br>
-					<br>
-					<br>
+				</div>
 
 
-	</body>
 
-	<script src="./js/main.js"></script>
+</body>
+
+<script src="./js/main.js"></script>
 
 </html>
