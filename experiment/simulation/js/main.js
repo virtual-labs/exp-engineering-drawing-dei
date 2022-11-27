@@ -2,6 +2,22 @@
 function step1(){
     document.getElementById("Step1").style.visibility = "visible";
     document.getElementById("Step").style.visibility = "hidden";
+    document.getElementById("board").style.visibility = "hidden";
+    document.getElementById("setup").style.visibility = "hidden";
+    document.getElementById("sheet").style.visibility = "hidden";
+    document.getElementById("block").style.visibility = "hidden";
+    document.getElementById("pencil").style.visibility = "hidden";
+    document.getElementById("png14").style.visibility = "hidden";
+    document.getElementById("done").style.visibility = "hidden";
+    document.getElementById("png2").style.visibility = "hidden";
+    document.getElementById("png8").style.visibility = "hidden";
+    document.getElementById("png9").style.visibility = "hidden";
+    document.getElementById("png10").style.visibility = "hidden";
+    document.getElementById("png11").style.visibility = "hidden";
+    document.getElementById("png14").style.visibility = "hidden";
+    document.getElementById("drafter").style.visibility = "hidden";
+    document.getElementById("drafterpng2").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="Introduction to Engineering Drawing";
 }
 function step2(){
     document.getElementById("Step2").style.visibility = "visible";
@@ -15,22 +31,42 @@ function step3(){
 function setUp(){
     document.getElementById("setup").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="Set up Drawing table";
+    document.getElementById("png14").style.visibility = "visible";
+    document.getElementById("png8").style.visibility = "visible";
+    document.getElementById("png9").style.visibility = "visible";
+    document.getElementById("png10").style.visibility = "visible";
+    document.getElementById("png11").style.visibility = "visible";
+    document.getElementById("drafter").style.visibility = "visible";
+    document.getElementById("wr").style.visibility = "visible";
+    document.getElementById("png1").style.visibility = "visible";
+    document.getElementById("png3").style.visibility = "visible";
+    document.getElementById("png12").style.visibility = "visible";
 }
 function board(){
     document.getElementById("board").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="Drawing Board";
 }
 function sheet(){
     document.getElementById("sheet").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="Drawing Sheet";
 }
 function block(){
     document.getElementById("block").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="Title Block";
 }
 function pencil(){
     document.getElementById("pencil").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="Pencils";
+}
+function drafter(){
+    document.getElementById("drafter").style.visibility = "visible";
+    document.getElementById("Step1").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="Mini drafter";
 }
 function move() {
     document.getElementById("png1").style.animationPlayState = "running";
@@ -101,6 +137,15 @@ function draftermove() {
     document.getElementById("wr1").style.visibility = "hidden";
     document.getElementById("aboutClip").style.visibility = "hidden";
     document.getElementById("done").style.visibility = "visible";
+    document.getElementById("backid").style.visibility = "visible";
+}
+function draftermove1() {
+    document.getElementById("drafterpng2").style.visibility = "visible";
+    document.getElementById("drafterpng").style.visibility = "hidden";
+    document.getElementById("drafterpng2").style.animationPlayState = "running";
+    document.getElementById("drafterpng2").style.animationIterationCount = "1";
+    document.getElementById("backid2").style.visibility = "visible";
+    document.getElementById("draftertxt").style.visibility = "hidden";
 }
 
 
