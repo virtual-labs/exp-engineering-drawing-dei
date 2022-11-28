@@ -34,11 +34,13 @@
 			margin-top: -554px;
 
 		}
+
 		#arrow {
 			position: absolute;
 			margin-left: 57px;
-    top: 29px;
+			top: 29px;
 		}
+
 		#png {
 			position: absolute;
 			margin-left: 24px;
@@ -154,8 +156,19 @@
 			margin-top: 42px;
 
 		}
+		#compasspng {
+			position: absolute;
+			margin-left: 138px;
+			margin-top: 42px;
 
+		}
 		#pencilpng {
+			position: absolute;
+			margin-left: 138px;
+			margin-top: 42px;
+
+		}
+		#setsquarepng {
 			position: absolute;
 			margin-left: 138px;
 			margin-top: 42px;
@@ -281,7 +294,21 @@
 			left: 97px;
 			top: 150px;
 
-			height: 130px;
+			height: 110px;
+
+			width: 600px;
+
+			border: solid 1px;
+
+			background-color: hsl(34, 30%, 89%);
+		}
+		.about{
+			position: relative;
+
+			left: 97px;
+			top: 373px;
+
+			height: 140px;
 
 			width: 600px;
 
@@ -296,7 +323,7 @@
 			top: 68px;
 
 			height: 120px;
-padding-left: 10px;
+			padding-left: 10px;
 			width: 400px;
 
 			border: solid 1px;
@@ -446,6 +473,8 @@ padding-left: 10px;
 									<li onclick="square()"><span style="color:blue"><u>Set square</u></span></li>
 									<br>
 									<li onclick="lines()"><span style="color:blue"><u>Lines</u></span></li>
+									<br>
+									<li onclick="compass()"><span style="color:blue"><u>Compass</u></span></li>
 								</ol>
 							</div>
 						</div>
@@ -453,7 +482,7 @@ padding-left: 10px;
 					<!--board-->
 					<div class="Mainstep" id="board" style="visibility: hidden" ">
 
-							<img id="boardpng" class="board" src="images/drawing board.png" alt="picture" width="500" height="300"><br>
+							<img id="boardpng" class="board" src="images/woodenBoard.png" alt="picture" width="500" height="300"><br>
 						<div id="aboutboard">
 							<ul>
 								<li>Made of well seasoned softwood of about 25 mm thick.</li>
@@ -476,12 +505,12 @@ padding-left: 10px;
 								<li>For class work, use of A2 size drawing sheet is preferred.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+						<input type="button" class="back" id="backsheet" value="&nbsp;Back&nbsp;" onclick="step1()" />
 					</div>
 					<!--title-->
 					<div class="Mainstep" id="block" style="visibility: hidden">
 
-						<img id="titlepng" class="board" src="images/Slide17.PNG" alt="picture" width="500"
+						<img id="titlepng" class="board" src="images/ezgif.com-gif-maker (5).gif" alt="picture" width="500"
 							height="300"><br>
 						<div id="aboutblock">
 							<ul>
@@ -495,11 +524,12 @@ padding-left: 10px;
 					</div>
 					<!--drafter-->
 					<div class="Mainstep" id="drafter" style="visibility: hidden">
-						<span id="draftertxt" style="position: relative; left:80px; top: 35px; "><i class="fa fa-hand-o-right"
-								aria-hidden="true"></i>&nbsp;Click on the drafter to place it.</span>
+						<span id="draftertxt" style="position: relative; left:80px; top: 35px; "><i
+								class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Click on the drafter to place
+							it.</span>
 						<img id="drafter1" class="board" src="images/board1.png" alt="picture" width="400"
 							height="280"><br>
-							<img id="arrow" class="board" src="images/arrow.gif" alt="picture" width="30" height="30">
+						<img id="arrow" class="board" src="images/arrow.gif" alt="picture" width="30" height="30">
 						<img id="drafterpng" class="board" src="images/drafter.png" alt="picture" width="200"
 							height="200" onclick="draftermove1()">
 						<img id="drafterpng2" class="board" src="images/DRAFTER1.png" alt="picture" width="200"
@@ -508,13 +538,15 @@ padding-left: 10px;
 
 						<div id="aboutdrafter">
 							<ul>
-								<li>The title block should lie within the drawing space at the bottom right hand
-									comer of the sheet.</li>
-								<li>The
-									title block can have a maximum length of 170 mm and width of 65mm.</li>
+								<li>Mini-drafter consists of an angle formed by two arms with scales marked and rigidly hinged to each
+									other.</li>
+								<li>It is used for drawing
+									horizontal, vertical and inclined lines, parallel and perpendicular lines and for measuring lines and
+									angles.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" id="backid2" style="visibility: hidden;" value="&nbsp;Back&nbsp;" onclick="step1()" />
+						<input type="button" class="back" id="backid2" style="visibility: hidden;"
+							value="&nbsp;Back&nbsp;" onclick="step1()" />
 					</div>
 					<!--setup-->
 					<div class="Mainstep" id="setup" style="visibility: hidden;">
@@ -525,7 +557,8 @@ padding-left: 10px;
 								class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Click on clips and mini
 							drafter to place them</span>
 						<div id="aboutClip" style="visibility: hidden;">
-							<span style="position: relative;"><i class="fa fa-hand-o-right" aria-hidden="true"></i><strong>Drawing Clips:</strong></span>
+							<span style="position: relative;"><i class="fa fa-hand-o-right"
+									aria-hidden="true"></i><strong>Drawing Clips:</strong></span>
 							<ul>
 								<li>To fix the drawing sheet to the board clips are used.</li>
 								<li>Clips are used at all the four corners of the drawing board to clamp the paper.
@@ -571,13 +604,15 @@ padding-left: 10px;
 								style="visibility: hidden;animation: moveDrafter 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
 
 						</div>
-						
-						<input type="button" class="back" id="backid" style="visibility: hidden;" value="&nbsp;Back&nbsp;" onclick="step1()" />
+
+						<input type="button" class="back" id="backid" style="visibility: hidden;"
+							value="&nbsp;Back&nbsp;" onclick="step1()" />
 					</div>
 					<!--pencil-->
 					<div class="Mainstep" id="pencil" style="visibility: hidden">
 
-						<img id="pencilpng" class="board" src="images/.gif" alt="picture" width="500" height="300"><br>
+						<img id="pencilpng" class="board" src="images/output-onlinegiftools (44).gif" alt="picture"
+							width="500" height="300"><br>
 						<div id="aboutpencil">
 							<ul>
 								<li>HB Soft grade for Border lines, lettering and free sketching</li>
@@ -585,6 +620,102 @@ padding-left: 10px;
 								<li>2H Hard grade for construction lines, Dimension lines, Leader lines, Extension
 									lines, Centre
 									lines, Hatching lines and Hidden lines.</li>
+							</ul>
+						</div>
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+					</div>
+					<!--setsquare-->
+					<div class="Mainstep" id="setsquare" style="visibility: hidden">
+
+						<img id="setsquarepng" class="board" src="images/ezgif.com-gif-maker (6).gif" alt="picture" width="500"
+							height="300"><br>
+						<div class="about">
+							<ul>
+								<li>A set square is an object used in engineering and technical drawing, with the aim of providing a straightedge at a right angle or other particular planar angle to a baseline.</li>
+								<li>The setsquare with 60°-30° of 250 mm long and 45° of 200mm long is convenient for use.</li></ul>
+						</div>
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+					</div>
+					<!--lines-->
+					<div class="Mainstep" id="lines" style="visibility: hidden;z-index: 1000; ">
+						<span
+							style="position: absolute; left:40px; top: 30px; color:black; font-size: 1.3rem; font-weight: bold;"><i
+								class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Types of lines in Engineering
+							Drawing:</span><br><br>
+
+						<div class="sub-header" style="position: relative; margin-top:  1rem;">
+
+							<div class="middle1" style="position: absolute; margin-left: 60px; margin-top: 20px;">
+								<!-- <p>Choose the problem Statement</p> -->
+								<ol>
+									<li onclick="narrow()"><span style="color:blue"><u>Continuous Narrow Lines</u></span></li>
+									<br>
+									<li onclick="wide()"><span style="color:blue"><u>Continuous Wide Lines</u></span></li>
+									<br>
+									<li onclick="zigzag()"><span style="color:blue"><u>Continuous Narrow Lines with Zigzags</u></span></li>
+									<br>
+									<li onclick="dashed()"><span style="color:blue"><u>Dashed Narrow Lines</u></span></li>
+									<br>
+									<li onclick="dottedNarrow()"><span style="color:blue"><u>Long-Dashed Dotted Narrow Lines</u></span></li>
+									<br>
+									<li onclick="dottedWide()"><span style="color:blue"><u>Long-Dashed Dotted Wide Lines</u></span></li>
+								</ol>
+							</div>
+						</div>
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+					</div>
+					<!--narrow-->
+					<div class="Mainstep" id="narrow" style="visibility: hidden">
+
+						<img id="narrowpng" class="board" src="images/.gif" alt="picture" width="500"
+							height="300">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+					</div>
+					<!--wide-->
+					<div class="Mainstep" id="wide" style="visibility: hidden">
+
+						<img id="widepng" class="board" src="images/.gif" alt="picture" width="500"
+							height="300">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+					</div>
+					<!--zigzag-->
+					<div class="Mainstep" id="zigzag" style="visibility: hidden">
+
+						<img id="zigzagpng" class="board" src="images/.gif" alt="picture" width="500"
+							height="300">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+					</div>
+					<!--dashed-->
+					<div class="Mainstep" id="dashed" style="visibility: hidden">
+
+						<img id="dashedpng" class="board" src="images/.gif" alt="picture" width="500"
+							height="300">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+					</div>
+					<!--dottednarrow-->
+					<div class="Mainstep" id="dottednarrow" style="visibility: hidden">
+
+						<img id="dottednarrowpng" class="board" src="images/.gif" alt="picture" width="500"
+							height="300">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+					</div>
+					<!--dottedwide-->
+					<div class="Mainstep" id="dottedwide" style="visibility: hidden">
+
+						<img id="dottedwidepng" class="board" src="images/.gif" alt="picture" width="500"
+							height="300">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+					</div>
+					<!--compass-->
+					<div class="Mainstep" id="compass" style="visibility: hidden">
+
+						<img id="compasspng" class="board" src="images/output-onlinegiftools (46).gif" alt="picture" width="500"
+							height="300"><br>
+						<div id="aboutcompass" class="about">
+							<ul>
+								<li>A compass is a technical drawing instrument that can be used for inscribing circles or arcs.</li>
+								<li>Normally, a large compass is used in engineering drawing.</li>
+								<li>It has a knee joint in one leg that permits the insertion of pen or pencil point or attaching lengthening bar with pen or pencil point attached to it.</li>
 							</ul>
 						</div>
 						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
