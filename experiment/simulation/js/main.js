@@ -1,4 +1,5 @@
 //Your JavaScript goes in here
+
 function step1(){
     document.getElementById("Step1").style.visibility = "visible";
     document.getElementById("Step").style.visibility = "hidden";
@@ -7,6 +8,9 @@ function step1(){
     document.getElementById("sheet").style.visibility = "hidden";
     document.getElementById("block").style.visibility = "hidden";
     document.getElementById("pencil").style.visibility = "hidden";
+    document.getElementById("setsquare").style.visibility = "hidden";
+    document.getElementById("compass").style.visibility = "hidden";
+    document.getElementById("lines").style.visibility = "hidden";
     document.getElementById("png14").style.visibility = "hidden";
     document.getElementById("done").style.visibility = "hidden";
     document.getElementById("png2").style.visibility = "hidden";
@@ -17,6 +21,7 @@ function step1(){
     document.getElementById("png14").style.visibility = "hidden";
     document.getElementById("drafter").style.visibility = "hidden";
     document.getElementById("drafterpng2").style.visibility = "hidden";
+    document.getElementById("sheetpng").style.visibility = "hidden";
     document.getElementById("headtitle").innerHTML="Introduction to Engineering Drawing";
 }
 function step2(){
@@ -30,6 +35,7 @@ function step3(){
 }
 function setUp(){
     document.getElementById("setup").style.visibility = "visible";
+    document.getElementById("setup").load;
     document.getElementById("Step1").style.visibility = "hidden";
     document.getElementById("headtitle").innerHTML="Set up Drawing table";
     document.getElementById("png14").style.visibility = "visible";
@@ -45,6 +51,7 @@ function setUp(){
 }
 function board(){
     document.getElementById("board").style.visibility = "visible";
+    
     document.getElementById("Step1").style.visibility = "hidden";
     document.getElementById("headtitle").innerHTML="Drawing Board";
 }
@@ -52,6 +59,58 @@ function sheet(){
     document.getElementById("sheet").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
     document.getElementById("headtitle").innerHTML="Drawing Sheet";
+    document.getElementById("sheetpng").style.visibility = "visible";
+}
+function compass(){
+    document.getElementById("compass").style.visibility = "visible";
+    document.getElementById("Step1").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="Compass";
+}
+function square(){
+    document.getElementById("setsquare").style.visibility = "visible";
+    document.getElementById("Step1").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="Set Square";
+}
+function lines(){
+    document.getElementById("lines").style.visibility = "visible";
+    document.getElementById("Step1").style.visibility = "hidden";
+    document.getElementById("narrow").style.visibility = "hidden";
+    document.getElementById("wide").style.visibility = "hidden";
+    document.getElementById("zigzag").style.visibility = "hidden";
+    document.getElementById("dashed").style.visibility = "hidden";
+    document.getElementById("dottednarrow").style.visibility = "hidden";
+    document.getElementById("dottedwide").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="lines";
+}
+function narrow(){
+    document.getElementById("narrow").style.visibility = "visible";
+    document.getElementById("lines").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="lines";
+}
+function wide(){
+    document.getElementById("wide").style.visibility = "visible";
+    document.getElementById("lines").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="lines";
+}
+function zigzag(){
+    document.getElementById("zigzag").style.visibility = "visible";
+    document.getElementById("lines").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="lines";
+}
+function dashed(){
+    document.getElementById("dashed").style.visibility = "visible";
+    document.getElementById("lines").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="lines";
+}
+function dottednarrow(){
+    document.getElementById("dottednarrow").style.visibility = "visible";
+    document.getElementById("lines").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="lines";
+}
+function dottedwide(){
+    document.getElementById("dottedwide").style.visibility = "visible";
+    document.getElementById("lines").style.visibility = "hidden";
+    document.getElementById("headtitle").innerHTML="lines";
 }
 function block(){
     document.getElementById("block").style.visibility = "visible";
