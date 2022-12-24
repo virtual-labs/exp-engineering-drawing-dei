@@ -3,7 +3,6 @@
 
 <head>
 	<meta charset="utf-8">
-
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/Loading.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap"
@@ -156,18 +155,21 @@
 			margin-top: 42px;
 
 		}
+
 		#compasspng {
 			position: absolute;
 			margin-left: 138px;
 			margin-top: 42px;
 
 		}
+
 		#pencilpng {
 			position: absolute;
 			margin-left: 138px;
 			margin-top: 42px;
 
 		}
+
 		#setsquarepng {
 			position: absolute;
 			margin-left: 138px;
@@ -302,7 +304,8 @@
 
 			background-color: hsl(34, 30%, 89%);
 		}
-		.about{
+
+		.about {
 			position: relative;
 
 			left: 97px;
@@ -358,13 +361,10 @@
 		@keyframes move {
 			0% {
 				transform: translate(0, 0);
-
 			}
 
 			100% {
 				transform: translate(-375px, 235px);
-
-
 			}
 		}
 
@@ -411,11 +411,10 @@
 				bottom: 235px;
 			}
 		}
+
+		
 	</style>
 </head>
-
-
-
 
 <body style="margin:0; font-family: verdana; color: #000;">
 	<table align="center">
@@ -425,17 +424,12 @@
 					<div id="title">
 						<h3 id="headtitle">Introduction to Engineering Drawing</h3>
 					</div>
-
 					<div class="Mainstep" id="Step" style="visibility: visible;z-index: 1000; ">
-
-
 						<p class="incanvas" style="position: absolute; top: 55px; left: 0px;font-size:15px;">
 							<strong>Objective:</strong>
 						</p>
-
 						<p class="incanvas" style="position: absolute; top: 85px; left: 0px;font-size:14px;">To
 							study the use of various instruments required in Engineering Drawing</p></br>
-
 						<p class="incanvas" style="position: absolute; top: 115px; left: 0px;font-size:15px;">
 							<strong>Instruments used:</strong>
 						</p>
@@ -451,9 +445,7 @@
 							style="position: absolute; left:40px; top: 30px; color:black; font-size: 1.3rem; font-weight: bold;"><i
 								class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Components of Engineering
 							Drawing:</span><br><br>
-
 						<div class="sub-header" style="position: relative; margin-top:  1rem;">
-
 							<div class="middle1" style="position: absolute; margin-left: 60px; margin-top: 20px;">
 								<!-- <p>Choose the problem Statement</p> -->
 								<ol>
@@ -465,8 +457,8 @@
 									<br>
 									<li onclick="drafter()"><span style="color:blue"><u>Mini Drafter</u></span></li>
 									<br>
-									<li onclick="setUp()"><span style="color:blue"><u>Set up Drawing
-												table</u></span></li>
+									<li onclick="setUp()"><span style="color:blue"><u>Set up Drawing table</u></span>
+									</li>
 									<br>
 									<li onclick="pencil()"><span style="color:blue"><u>Pencils</u></span></li>
 									<br>
@@ -480,9 +472,10 @@
 						</div>
 					</div>
 					<!--board-->
-					<div class="Mainstep" id="board" style="visibility: hidden" ">
+					<div class="Mainstep" id="board" style="visibility: hidden">
 
-							<img id="boardpng" class="board" src="images/woodenBoard.png" alt="picture" width="500" height="300"><br>
+              <img id=" boardpng" class="board" src="images/woodenBoard.png" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
+						<br>
 						<div id="aboutboard">
 							<ul>
 								<li>Made of well seasoned softwood of about 25 mm thick.</li>
@@ -490,11 +483,10 @@
 									required.&nbsp;</li>
 							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
 					</div>
 					<!--sheet-->
 					<div class="Mainstep" id="sheet" style="visibility: hidden">
-
 						<img id="sheetpng" class="board" src="images/output-onlinegiftools (29).gif" alt="picture"
 							width="500" height="300"><br>
 						<div id="aboutsheet">
@@ -505,13 +497,12 @@
 								<li>For class work, use of A2 size drawing sheet is preferred.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" id="backsheet" value="&nbsp;Back&nbsp;" onclick="step1()" />
+						<input type="button" class="back" id="backsheet" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
 					</div>
 					<!--title-->
 					<div class="Mainstep" id="block" style="visibility: hidden">
-
-						<img id="titlepng" class="board" src="images/ezgif.com-gif-maker (5).gif" alt="picture" width="500"
-							height="300"><br>
+						<img id="titlepng" class="board" src="images/ezgif.com-gif-maker (5).gif" alt="picture"
+							width="500" height="300"><br>
 						<div id="aboutblock">
 							<ul>
 								<li>The title block should lie within the drawing space at the bottom right hand
@@ -520,7 +511,7 @@
 									title block can have a maximum length of 170 mm and width of 65mm.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
 					</div>
 					<!--drafter-->
 					<div class="Mainstep" id="drafter" style="visibility: hidden">
@@ -535,22 +526,22 @@
 						<img id="drafterpng2" class="board" src="images/DRAFTER1.png" alt="picture" width="200"
 							height="200"
 							style="visibility: hidden;animation: moveDrafter1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-
 						<div id="aboutdrafter">
 							<ul>
-								<li>Mini-drafter consists of an angle formed by two arms with scales marked and rigidly hinged to each
+								<li>Mini-drafter consists of an angle formed by two arms with scales marked and rigidly
+									hinged to each
 									other.</li>
 								<li>It is used for drawing
-									horizontal, vertical and inclined lines, parallel and perpendicular lines and for measuring lines and
+									horizontal, vertical and inclined lines, parallel and perpendicular lines and for
+									measuring lines and
 									angles.</li>
 							</ul>
 						</div>
 						<input type="button" class="back" id="backid2" style="visibility: hidden;"
-							value="&nbsp;Back&nbsp;" onclick="step1()" />
+							value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
 					</div>
 					<!--setup-->
 					<div class="Mainstep" id="setup" style="visibility: hidden;">
-
 						<span id="wr" style="position: relative; left:80px; top: 35px; "><i class="fa fa-hand-o-right"
 								aria-hidden="true"></i>&nbsp;Place drawing sheet</span>
 						<span id="wr1" style="position: relative; left: -90px; top: 35px; visibility: hidden; "><i
@@ -570,8 +561,6 @@
 									aria-hidden="true"></i>&nbsp;Setup Done</span>
 						</div>
 						<div class="sub-header" style="position: relative; margin-top:  2rem;">
-
-
 							<img id="png" class="board" src="images/drawing board.png" alt="picture" width="375"
 								height="245">
 							<img id="png1" class="board" src="images/small sheet.png" alt="picture" width="350"
@@ -602,15 +591,12 @@
 							<img id="png14" class="board" src="images/DRAFTER1.png" alt="picture" width="200"
 								height="200"
 								style="visibility: hidden;animation: moveDrafter 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-
 						</div>
-
 						<input type="button" class="back" id="backid" style="visibility: hidden;"
-							value="&nbsp;Back&nbsp;" onclick="step1()" />
+							value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
 					</div>
 					<!--pencil-->
 					<div class="Mainstep" id="pencil" style="visibility: hidden">
-
 						<img id="pencilpng" class="board" src="images/output-onlinegiftools (44).gif" alt="picture"
 							width="500" height="300"><br>
 						<div id="aboutpencil">
@@ -622,19 +608,22 @@
 									lines, Hatching lines and Hidden lines.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
 					</div>
 					<!--setsquare-->
 					<div class="Mainstep" id="setsquare" style="visibility: hidden">
-
-						<img id="setsquarepng" class="board" src="images/ezgif.com-gif-maker (6).gif" alt="picture" width="500"
-							height="300"><br>
+						<img id="setsquarepng" class="board" src="images/ezgif.com-gif-maker (6).gif" alt="picture"
+							width="500" height="300"><br>
 						<div class="about">
 							<ul>
-								<li>A set square is an object used in engineering and technical drawing, with the aim of providing a straightedge at a right angle or other particular planar angle to a baseline.</li>
-								<li>The setsquare with 60°-30° of 250 mm long and 45° of 200mm long is convenient for use.</li></ul>
+								<li>A set square is an object used in engineering and technical drawing, with the aim of
+									providing a straightedge at a right angle or other particular planar angle to a
+									baseline.</li>
+								<li>The setsquare with 60°-30° of 250 mm long and 45° of 200mm long is convenient for
+									use.</li>
+							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()"/>
 					</div>
 					<!--lines-->
 					<div class="Mainstep" id="lines" style="visibility: hidden;z-index: 1000; ">
@@ -642,90 +631,79 @@
 							style="position: absolute; left:40px; top: 30px; color:black; font-size: 1.3rem; font-weight: bold;"><i
 								class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Types of lines in Engineering
 							Drawing:</span><br><br>
-
 						<div class="sub-header" style="position: relative; margin-top:  1rem;">
-
 							<div class="middle1" style="position: absolute; margin-left: 60px; margin-top: 20px;">
 								<!-- <p>Choose the problem Statement</p> -->
 								<ol>
-									<li onclick="narrow()"><span style="color:blue"><u>Continuous Narrow Lines</u></span></li>
+									<li onclick="narrow()"><span style="color:blue"><u>Continuous Narrow
+												Lines</u></span></li>
 									<br>
-									<li onclick="wide()"><span style="color:blue"><u>Continuous Wide Lines</u></span></li>
+									<li onclick="wide()"><span style="color:blue"><u>Continuous Wide Lines</u></span>
+									</li>
 									<br>
-									<li onclick="zigzag()"><span style="color:blue"><u>Continuous Narrow Lines with Zigzags</u></span></li>
+									<li onclick="zigzag()"><span style="color:blue"><u>Continuous Narrow Lines with
+												Zigzags</u></span></li>
 									<br>
-									<li onclick="dashed()"><span style="color:blue"><u>Dashed Narrow Lines</u></span></li>
+									<li onclick="dashed()"><span style="color:blue"><u>Dashed Narrow Lines</u></span>
+									</li>
 									<br>
-									<li onclick="dottedNarrow()"><span style="color:blue"><u>Long-Dashed Dotted Narrow Lines</u></span></li>
+									<li onclick="dottednarrow()"><span style="color:blue"><u>Long-Dashed Dotted Narrow
+												Lines</u></span></li>
 									<br>
-									<li onclick="dottedWide()"><span style="color:blue"><u>Long-Dashed Dotted Wide Lines</u></span></li>
+									<li onclick="dottedwide()"><span style="color:blue"><u>Long-Dashed Dotted Wide
+												Lines</u></span></li>
 								</ol>
 							</div>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
 					</div>
 					<!--narrow-->
 					<div class="Mainstep" id="narrow" style="visibility: hidden">
-
-						<img id="narrowpng" class="board" src="images/.gif" alt="picture" width="500"
-							height="300">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+						<img id="narrowpng" class="board" src="images/continuous narrow lines.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
 					</div>
 					<!--wide-->
 					<div class="Mainstep" id="wide" style="visibility: hidden">
-
-						<img id="widepng" class="board" src="images/.gif" alt="picture" width="500"
-							height="300">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+						<img id="widepng" class="board" src="images/continuous wide lines.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
 					</div>
 					<!--zigzag-->
 					<div class="Mainstep" id="zigzag" style="visibility: hidden">
-
-						<img id="zigzagpng" class="board" src="images/.gif" alt="picture" width="500"
-							height="300">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+						<img id="zigzagpng" class="board" src="images/continuous lines with zigzag.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
 					</div>
 					<!--dashed-->
 					<div class="Mainstep" id="dashed" style="visibility: hidden">
-
-						<img id="dashedpng" class="board" src="images/.gif" alt="picture" width="500"
-							height="300">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+						<img id="dashedpng" class="board" src="images/dashed narrow lines.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
 					</div>
 					<!--dottednarrow-->
 					<div class="Mainstep" id="dottednarrow" style="visibility: hidden">
-
-						<img id="dottednarrowpng" class="board" src="images/.gif" alt="picture" width="500"
-							height="300">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+						<img id="dottednarrowpng" class="board" src="images/long-dashed dotted narrow lines.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
 					</div>
 					<!--dottedwide-->
 					<div class="Mainstep" id="dottedwide" style="visibility: hidden">
-
-						<img id="dottedwidepng" class="board" src="images/.gif" alt="picture" width="500"
-							height="300">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines()" />
+						<img id="dottedwidepng" class="board" src="images/long-dashed dotted wide lines.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
 					</div>
 					<!--compass-->
 					<div class="Mainstep" id="compass" style="visibility: hidden">
-
-						<img id="compasspng" class="board" src="images/output-onlinegiftools (46).gif" alt="picture" width="500"
-							height="300"><br>
+						<img id="compasspng" class="board" src="images/output-onlinegiftools (46).gif" alt="picture"
+							width="500" height="300"><br>
 						<div id="aboutcompass" class="about">
 							<ul>
-								<li>A compass is a technical drawing instrument that can be used for inscribing circles or arcs.</li>
+								<li>A compass is a technical drawing instrument that can be used for inscribing circles
+									or arcs.</li>
 								<li>Normally, a large compass is used in engineering drawing.</li>
-								<li>It has a knee joint in one leg that permits the insertion of pen or pencil point or attaching lengthening bar with pen or pencil point attached to it.</li>
+								<li>It has a knee joint in one leg that permits the insertion of pen or pencil point or
+									attaching lengthening bar with pen or pencil point attached to it.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
 					</div>
 				</div>
-
-
-
 </body>
-
 <script src="./js/main.js"></script>
 
 </html>

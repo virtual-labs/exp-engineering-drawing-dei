@@ -59,8 +59,9 @@ function sheet(){
     document.getElementById("sheet").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
     document.getElementById("headtitle").innerHTML="Drawing Sheet";
-    document.getElementById("sheetpng").style.visibility = "visible";
+    document.getElementById("sheetpng").style.visibility = "visible";    
 }
+
 function compass(){
     document.getElementById("compass").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
@@ -126,6 +127,7 @@ function drafter(){
     document.getElementById("drafter").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
     document.getElementById("headtitle").innerHTML="Mini drafter";
+    
 }
 function move() {
     document.getElementById("png1").style.animationPlayState = "running";
@@ -199,6 +201,7 @@ function draftermove() {
     document.getElementById("backid").style.visibility = "visible";
 }
 function draftermove1() {
+    document.getElementById("arrow").style.visibility = "hidden";
     document.getElementById("drafterpng2").style.visibility = "visible";
     document.getElementById("drafterpng").style.visibility = "hidden";
     document.getElementById("drafterpng2").style.animationPlayState = "running";
@@ -206,5 +209,3 @@ function draftermove1() {
     document.getElementById("backid2").style.visibility = "visible";
     document.getElementById("draftertxt").style.visibility = "hidden";
 }
-
-
