@@ -1,6 +1,6 @@
 //Your JavaScript goes in here
 
-function step1(){
+function step1() {
     document.getElementById("Step1").style.visibility = "visible";
     document.getElementById("Step").style.visibility = "hidden";
     document.getElementById("board").style.visibility = "hidden";
@@ -22,57 +22,56 @@ function step1(){
     document.getElementById("drafter").style.visibility = "hidden";
     document.getElementById("drafterpng2").style.visibility = "hidden";
     document.getElementById("sheetpng").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="Introduction to Engineering Drawing";
+    document.getElementById("headtitle").innerHTML = "Introduction to Engineering Drawing";
 }
-function step2(){
+function step2() {
     document.getElementById("Step2").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
 }
-function step3(){
+function step3() {
     document.getElementById("Step3").style.visibility = "visible";
     document.getElementById("Step2").style.visibility = "hidden";
     document.getElementById("png18").style.visibility = "hidden";
 }
-function setUp(){
+function setUp() {
     document.getElementById("setup").style.visibility = "visible";
     document.getElementById("setup").load;
     document.getElementById("Step1").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="Set up Drawing table";
-    document.getElementById("png14").style.visibility = "visible";
-    document.getElementById("png8").style.visibility = "visible";
-    document.getElementById("png9").style.visibility = "visible";
-    document.getElementById("png10").style.visibility = "visible";
-    document.getElementById("png11").style.visibility = "visible";
+    document.getElementById("headtitle").innerHTML = "Set up Drawing table";
+    // document.getElementById("png14").style.visibility = "visible";
+    // document.getElementById("png8").style.visibility = "visible";
+    // document.getElementById("png9").style.visibility = "visible";
+    // document.getElementById("png10").style.visibility = "visible";
+    // document.getElementById("png11").style.visibility = "visible";
     document.getElementById("drafter").style.visibility = "visible";
     document.getElementById("wr").style.visibility = "visible";
     document.getElementById("png1").style.visibility = "visible";
     document.getElementById("png3").style.visibility = "visible";
     document.getElementById("png12").style.visibility = "visible";
 }
-function board(){
+function board() {
     document.getElementById("board").style.visibility = "visible";
-    
     document.getElementById("Step1").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="Drawing Board";
+    document.getElementById("headtitle").innerHTML = "Drawing Board";
 }
-function sheet(){
+function sheet() {
     document.getElementById("sheet").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="Drawing Sheet";
-    document.getElementById("sheetpng").style.visibility = "visible";    
+    document.getElementById("headtitle").innerHTML = "Drawing Sheet";
+    document.getElementById("sheetpng").style.visibility = "visible";
 }
 
-function compass(){
+function compass() {
     document.getElementById("compass").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="Compass";
+    document.getElementById("headtitle").innerHTML = "Compass";
 }
-function square(){
+function square() {
     document.getElementById("setsquare").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="Set Square";
+    document.getElementById("headtitle").innerHTML = "Set Square";
 }
-function lines(){
+function lines() {
     document.getElementById("lines").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
     document.getElementById("narrow").style.visibility = "hidden";
@@ -81,53 +80,52 @@ function lines(){
     document.getElementById("dashed").style.visibility = "hidden";
     document.getElementById("dottednarrow").style.visibility = "hidden";
     document.getElementById("dottedwide").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="lines";
+    document.getElementById("headtitle").innerHTML = "lines";
 }
-function narrow(){
+function narrow() {
     document.getElementById("narrow").style.visibility = "visible";
     document.getElementById("lines").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="lines";
+    document.getElementById("headtitle").innerHTML = "lines";
 }
-function wide(){
+function wide() {
     document.getElementById("wide").style.visibility = "visible";
     document.getElementById("lines").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="lines";
+    document.getElementById("headtitle").innerHTML = "lines";
 }
-function zigzag(){
+function zigzag() {
     document.getElementById("zigzag").style.visibility = "visible";
     document.getElementById("lines").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="lines";
+    document.getElementById("headtitle").innerHTML = "lines";
 }
-function dashed(){
+function dashed() {
     document.getElementById("dashed").style.visibility = "visible";
     document.getElementById("lines").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="lines";
+    document.getElementById("headtitle").innerHTML = "lines";
 }
-function dottednarrow(){
+function dottednarrow() {
     document.getElementById("dottednarrow").style.visibility = "visible";
     document.getElementById("lines").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="lines";
+    document.getElementById("headtitle").innerHTML = "lines";
 }
-function dottedwide(){
+function dottedwide() {
     document.getElementById("dottedwide").style.visibility = "visible";
     document.getElementById("lines").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="lines";
+    document.getElementById("headtitle").innerHTML = "lines";
 }
-function block(){
+function block() {
     document.getElementById("block").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="Title Block";
+    document.getElementById("headtitle").innerHTML = "Title Block";
 }
-function pencil(){
+function pencil() {
     document.getElementById("pencil").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="Pencils";
+    document.getElementById("headtitle").innerHTML = "Pencils";
 }
-function drafter(){
+function drafter() {
     document.getElementById("drafter").style.visibility = "visible";
     document.getElementById("Step1").style.visibility = "hidden";
-    document.getElementById("headtitle").innerHTML="Mini drafter";
-    
+    document.getElementById("headtitle").innerHTML = "Mini drafter";
 }
 function move() {
     document.getElementById("png1").style.animationPlayState = "running";
@@ -152,20 +150,26 @@ function myGreeting() {
     document.getElementById("wr1").style.visibility = "visible";
     document.getElementById("aboutClip").style.visibility = "visible";
     document.getElementById("png13").style.visibility = "visible";
-
     myStopFunction();
 }
 
 function myStopFunction() {
     clearTimeout(myTimeout);
-
 }
 
+var check = 0;
 function clipmove() {
     document.getElementById("png8").style.visibility = "visible";
     document.getElementById("png4").style.visibility = "hidden";
     document.getElementById("png8").style.animationPlayState = "running";
     document.getElementById("png8").style.animationIterationCount = "1";
+    ++check;
+    if (check == 5) {
+        document.getElementById("done").style.visibility = "visible";
+        document.getElementById("png12").style.visibility = "hidden";
+        document.getElementById("wr1").style.visibility = "hidden";
+        document.getElementById("aboutClip").style.visibility = "hidden";
+    }
 }
 
 function clipmove1() {
@@ -173,6 +177,13 @@ function clipmove1() {
     document.getElementById("png5").style.visibility = "hidden";
     document.getElementById("png9").style.animationPlayState = "running";
     document.getElementById("png9").style.animationIterationCount = "1";
+    ++check;
+    if (check == 5) {
+        document.getElementById("done").style.visibility = "visible";
+        document.getElementById("png12").style.visibility = "hidden";
+        document.getElementById("wr1").style.visibility = "hidden";
+        document.getElementById("aboutClip").style.visibility = "hidden";
+    }
 }
 
 function clipmove2() {
@@ -180,6 +191,13 @@ function clipmove2() {
     document.getElementById("png6").style.visibility = "hidden";
     document.getElementById("png10").style.animationPlayState = "running";
     document.getElementById("png10").style.animationIterationCount = "1";
+    ++check;
+    if (check == 5) {
+        document.getElementById("done").style.visibility = "visible";
+        document.getElementById("png12").style.visibility = "hidden";
+        document.getElementById("wr1").style.visibility = "hidden";
+        document.getElementById("aboutClip").style.visibility = "hidden";
+    }
 }
 
 function clipmove3() {
@@ -187,6 +205,13 @@ function clipmove3() {
     document.getElementById("png7").style.visibility = "hidden";
     document.getElementById("png11").style.animationPlayState = "running";
     document.getElementById("png11").style.animationIterationCount = "1";
+    ++check;
+    if (check == 5) {
+        document.getElementById("done").style.visibility = "visible";
+        document.getElementById("png12").style.visibility = "hidden";
+        document.getElementById("wr1").style.visibility = "hidden";
+        document.getElementById("aboutClip").style.visibility = "hidden";
+    }
 }
 
 function draftermove() {
@@ -194,12 +219,16 @@ function draftermove() {
     document.getElementById("png13").style.visibility = "hidden";
     document.getElementById("png14").style.animationPlayState = "running";
     document.getElementById("png14").style.animationIterationCount = "1";
-    document.getElementById("png12").style.visibility = "hidden";
-    document.getElementById("wr1").style.visibility = "hidden";
-    document.getElementById("aboutClip").style.visibility = "hidden";
-    document.getElementById("done").style.visibility = "visible";
     document.getElementById("backid").style.visibility = "visible";
+    ++check;
+    if (check == 5) {
+        document.getElementById("done").style.visibility = "visible";
+        document.getElementById("png12").style.visibility = "hidden";
+        document.getElementById("wr1").style.visibility = "hidden";
+        document.getElementById("aboutClip").style.visibility = "hidden";
+    }
 }
+
 function draftermove1() {
     document.getElementById("arrow").style.visibility = "hidden";
     document.getElementById("drafterpng2").style.visibility = "visible";

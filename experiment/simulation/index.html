@@ -58,7 +58,6 @@
 			position: relative;
 			margin-left: 37px;
 			margin-top: 17px;
-
 		}
 
 		#png3 {
@@ -483,7 +482,7 @@
 									required.&nbsp;</li>
 							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--sheet-->
 					<div class="Mainstep" id="sheet" style="visibility: hidden">
@@ -497,7 +496,7 @@
 								<li>For class work, use of A2 size drawing sheet is preferred.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" id="backsheet" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
+						<input type="button" class="back" id="backsheet" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--title-->
 					<div class="Mainstep" id="block" style="visibility: hidden">
@@ -511,7 +510,7 @@
 									title block can have a maximum length of 170 mm and width of 65mm.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--drafter-->
 					<div class="Mainstep" id="drafter" style="visibility: hidden">
@@ -538,7 +537,7 @@
 							</ul>
 						</div>
 						<input type="button" class="back" id="backid2" style="visibility: hidden;"
-							value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
+							value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--setup-->
 					<div class="Mainstep" id="setup" style="visibility: hidden;">
@@ -593,7 +592,7 @@
 								style="visibility: hidden;animation: moveDrafter 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
 						</div>
 						<input type="button" class="back" id="backid" style="visibility: hidden;"
-							value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
+							value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--pencil-->
 					<div class="Mainstep" id="pencil" style="visibility: hidden">
@@ -608,7 +607,7 @@
 									lines, Hatching lines and Hidden lines.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--setsquare-->
 					<div class="Mainstep" id="setsquare" style="visibility: hidden">
@@ -623,7 +622,7 @@
 									use.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()"/>
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()"/>
 					</div>
 					<!--lines-->
 					<div class="Mainstep" id="lines" style="visibility: hidden;z-index: 1000; ">
@@ -655,37 +654,37 @@
 								</ol>
 							</div>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--narrow-->
 					<div class="Mainstep" id="narrow" style="visibility: hidden">
 						<img id="narrowpng" class="board" src="images/continuous narrow lines.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--wide-->
 					<div class="Mainstep" id="wide" style="visibility: hidden">
 						<img id="widepng" class="board" src="images/continuous wide lines.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--zigzag-->
 					<div class="Mainstep" id="zigzag" style="visibility: hidden">
 						<img id="zigzagpng" class="board" src="images/continuous lines with zigzag.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--dashed-->
 					<div class="Mainstep" id="dashed" style="visibility: hidden">
 						<img id="dashedpng" class="board" src="images/dashed narrow lines.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--dottednarrow-->
 					<div class="Mainstep" id="dottednarrow" style="visibility: hidden">
 						<img id="dottednarrowpng" class="board" src="images/long-dashed dotted narrow lines.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--dottedwide-->
 					<div class="Mainstep" id="dottedwide" style="visibility: hidden">
 						<img id="dottedwidepng" class="board" src="images/long-dashed dotted wide lines.gif" alt="picture" width="500" height="300" style="top: 75px;left: 143px; position: absolute;">
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="lines();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 					<!--compass-->
 					<div class="Mainstep" id="compass" style="visibility: hidden">
@@ -700,7 +699,7 @@
 									attaching lengthening bar with pen or pencil point attached to it.</li>
 							</ul>
 						</div>
-						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="step1();location.reload()" />
+						<input type="button" class="back" value="&nbsp;Back&nbsp;" onclick="location.reload()" />
 					</div>
 				</div>
 </body>
