@@ -297,7 +297,6 @@ body {
 }
 
 #transboxsheet{
-  /* border: 2px solid black; */
   position: absolute;
     top: -50px;
     left: 430px;
