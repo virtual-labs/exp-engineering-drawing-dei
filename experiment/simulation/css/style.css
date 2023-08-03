@@ -1,277 +1,800 @@
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .subject {
+    margin: auto auto auto 25px;
+  }
+  
+  .label-div {
+    padding-left: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .top-container {
+    background-color: #f1f1f1;
+    padding: 5px 5px 5px 5px;
+  
+  }
+  
+  .header {
+    padding: 0;
+    padding: 10px 16px;
+    display: flex;
+  
+  }
+  
+  .experiment-heading {
+    margin: 25px;
+  }
+  
+  .Mainstep {
+    position: absolute;
+  
+    left: 10px;
+    top: 40px;
+    height: 558px;
+    width: 788px;
+    background-color: #dce5ec;
+  }
+  
+  .incanvas {
+    margin: 10px 0 0 10px;
+    padding: 0;
+  }
+  
+  .circlebg {
+    border-radius: 20%;
+    padding: 0px 2px 0px 2px;
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+    background: #2150a0;
+  }
+  
+  #simscreen {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 600px;
+    width: 800px;
+    border: solid 1px;
+    background-color: #dce5ec;
+  }
+  
+  #simscreen1 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    height: 600px;
+    width: 800px;
+    border: solid 1px;
+    background-color: #dce5ec;
+  }
+  
+  
+  #title {
+    position: relative;
+    left: 0px;
+    top: -27px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(20, 117, 228);
+    font-family: verdana;
+    color: White;
+    text-transform: uppercase;
+  }
+  
+  button {
+    margin-left: 25px;
+    height: 30px;
+    width: 80px;
+  
+  }
+  
+  .header-img {
+    margin: 0 0 0 auto;
+    height: 90px;
+  
+  }
+  
+  .header-img2 {
+    height: 90px;
+    margin: 0;
+  
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky+.content {
+    padding-top: 102px;
+  }
+  
+  h1 {
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+  
+    margin: auto;
+  }
+  
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  
+  .topnav a.active {
+    background-color: black;
+    color: white;
+  }
+  
+  .experiment {
+    margin: 15px;
+  }
+  
+  #downloadButton {
+    text-decoration: none;
+  }
+  
+  #downloadButton:hover {
+    background-color: bisque;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-left: 50px;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  
+  .button {
+  
+    margin-right: 25px;
+    height: 36px;
+    width: 70px;
+  }
+  
+  .next {
+    position: relative;
+    left: 76%;
+    bottom: -165%;
+  }
+  
+  .play {
+    position: relative;
+    left: 26%;
+    bottom: -95%;
+    background-color: #dc260eed;
+    color: #f1f1f1;
+  }
+  
+  .img-with-text {
+    text-align: justify;
+    width: [width of img];
+  }
+  
+  .img-with-text img {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  /* style part */
+
+  li {
+    cursor: pointer;
 }
 
-.subject {
-  margin: auto auto auto 25px;
+#drafter1 {
+    position: absolute;
+    margin-left: -155px;
+    margin-top: 80px
 }
 
-.label-div {
-  padding-left: 25px;
-  margin-bottom: 10px;
+#drafterpng {
+    position: relative;
+    margin-left: 556px;
+    top: 69px;
 }
 
-.top-container {
-  background-color: #f1f1f1;
-  padding: 5px 5px 5px 5px;
 
-}
-
-.header {
-  padding: 0;
-  padding: 10px 16px;
-  display: flex;
+#drafterpng2 {
+    position: relative;
+    margin-left: 63px;
+    margin-top: -554px;
 
 }
 
-.experiment-heading {
-  margin: 25px;
+#arrow {
+    position: absolute;
+    margin-left: 57px;
+    top: 29px;
 }
 
-.Mainstep {
+/* ----------------sheet move-------------- */
+
+#boardplaced {
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 174px;
+
+}
+
+#sheetplaced {
+    position: absolute;
+    top: -50px;
+    left: 430px;
+}
+
+#sheetanimation1 {
+    visibility: hidden;
+    position: absolute;
+    border: none;
+    animation: move 1s infinite; animation-play-state:paused; animation-fill-mode: forwards;
+    animation-name: anuj;
+}
+
+#transboxsheet{
+  /* border: 2px solid black; */
   position: absolute;
-
-  left: 10px;
-  top: 40px;
-  height: 558px;
-  width: 788px;
-  /*left:10px;
-
-	top:50px;
-
-	height:530px;
-
-	width:785px;*/
-  /*background-color: red;*/
-  background-color: #dce5ec;
+    top: -50px;
+    left: 430px;
 }
 
-.incanvas {
-  margin: 10px 0 0 10px;
+@keyframes anuj {
 
-  padding: 0;
-}
-
-.circlebg {
-
-  border-radius: 20%;
-  padding: 0px 2px 0px 2px;
-  font-size: 20px;
-
-  color: #FFF;
-
-  text-align: center;
-
-  background: #2150a0;
-
-}
-
-#simscreen {
-
-  position: relative;
-
-  left: 0px;
-
-  top: 0px;
-
-  height: 600px;
-
-  width: 800px;
-
-  border: solid 1px;
-
-  background-color: #dce5ec;
-}
-
-#simscreen1 {
-
-  position: relative;
-
-  left: 0px;
-
-  top: 0px;
-
-  height: 600px;
-
-  width: 800px;
-
-  border: solid 1px;
-
-  background-color: #dce5ec;
+  0%{
+    top: -50px;
+    left: 430px;
+  }
+  
+  100%{
+    top: 187px;
+    left: 37px;
+  }
 }
 
 
-#title {
 
-  position: relative;
 
-  left: 0px;
 
-  top: -27px;
 
+/* ----------------------------sheet move ends------------------------- */
+
+#png2 {
+    position: relative;
+    margin-left: 37px;
+    margin-top: 17px;
+}
+
+#png3 {
+    position: relative;
+    margin-left: -147px;
+    top: -339px;
+}
+
+#png4 {
+    position: relative;
+    margin-left: 94px;
+    top: -314px;
+}
+
+#png5 {
+    position: relative;
+    margin-left: 549px;
+    top: -372px;
+}
+
+#png6 {
+    position: relative;
+    margin-left: 583px;
+    top: -430px;
+}
+
+#png7 {
+    position: relative;
+    margin-left: 618px;
+    top: -485px
+}
+
+#png8 {
+    position: relative;
+    margin-left: -678px;
+    margin-top: -641px;
+}
+
+#png9 {
+    position: relative;
+    margin-left: 305px;
+    margin-top: -641px;
+}
+
+#png10 {
+    position: relative;
+    margin-left: -346px;
+    margin-top: -56px;
+}
+
+#png11 {
+    position: relative;
+    margin-left: 305px;
+    margin-top: -56px;
+}
+
+#png12 {
+    position: absolute;
+    margin-left: -659px;
+    top: -21px;
+}
+
+#png13 {
+    position: relative;
+    margin-left: 518px;
+    top: -463px;
+}
+
+
+#png14 {
+    position: relative;
+    margin-left: -9px;
+    margin-top: -554px;
+
+}
+
+#boardpng {
+    position: absolute;
+    margin-left: 138px;
+    margin-top: 42px;
+
+}
+
+#sheetpng {
+    position: absolute;
+    margin-left: 138px;
+    margin-top: 42px;
+
+}
+
+#titlepng {
+    position: absolute;
+    margin-left: 138px;
+    margin-top: 42px;
+
+}
+
+#compasspng {
+    position: absolute;
+    margin-left: 138px;
+    margin-top: 42px;
+
+}
+
+#pencilpng {
+    position: absolute;
+    margin-left: 138px;
+    margin-top: 42px;
+
+}
+
+#setsquarepng {
+    position: absolute;
+    margin-left: 138px;
+    margin-top: 42px;
+
+}
+
+#png16 {
+    position: absolute;
+    margin-left: 250px;
+    top: 238px
+}
+
+#png17 {
+    position: absolute;
+    margin-left: 276px;
+    top: 241px;
+}
+
+#png18 {
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 80px;
+
+}
+
+#png19 {
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 99px;
+
+}
+
+#png20 {
+    position: absolute;
+    margin-left: 212px;
+    top: 139px;
+}
+
+#about {
+
+    position: relative;
+    left: 97px;
+    top: 373px;
+    height: 100px;
+    width: 600px;
+    border: solid 1px;
+    background-color: hsl(34, 30%, 89%);
+}
+
+#aboutboard {
+    position: relative;
+    left: 97px;
+    top: 373px;
+    height: 100px;
+    width: 600px;
+    border: solid 1px;
+    background-color: hsl(34, 30%, 89%);
+}
+
+#aboutsheet {
+    position: relative;
+    left: 97px;
+    top: 373px;
+    height: 100px;
+    width: 600px;
+    border: solid 1px;
+    background-color: hsl(34, 30%, 89%);
+}
+
+#aboutblock {
+    position: relative;
+    left: 97px;
+    top: 373px;
+    height: 100px;
+    width: 600px;
+    border: solid 1px;
+    background-color: hsl(34, 30%, 89%);
+}
+
+#aboutpencil {
+    position: relative;
+    left: 97px;
+    top: 373px;
+    height: 130px;
+    width: 600px;
+    border: solid 1px;
+    background-color: hsl(34, 30%, 89%);
+}
+
+#aboutdrafter {
+    position: relative;
+    left: 97px;
+    top: 150px;
+    height: 110px;
+    width: 600px;
+    border: solid 1px;
+    background-color: hsl(34, 30%, 89%);
+}
+
+.about {
+    position: relative;
+    left: 97px;
+    top: 373px;
+    height: 140px;
+    width: 600px;
+    border: solid 1px;
+    background-color: hsl(34, 30%, 89%);
+}
+
+#aboutClip {
+    position: absolute;
+    left: 57px;
+    top: 68px;
+    height: 120px;
+    padding-left: 10px;
+    width: 400px;
+    border: solid 1px;
+    background-color: hsl(34, 30%, 89%);
+}
+
+#done {
+    position: absolute;
+    left: 327px;
+    top: 78px;
+    height: 45px;
+    width: 400px;
+    border: solid 3px;
+    background-color: hsl(14deg 96% 49% / 66%);
+    text-align: center;
+}
+
+.back {
+    position: absolute;
+    left: 12px;
+    top: 503px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #2150a0;
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: 5px
+}
+
+#back1 {
+    position: absolute;
+    left: 12px;
+    top: 460px;
+    visibility: hidden;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #2150a0;
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: 5px
+}
+.backk {
+    position: absolute;
+    left: 12px;
+    top: 450px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #2150a0;
+    padding-top: 5px;
+    color: #FFF;
+    padding-bottom: 5px
+}
+
+#clip1{
+  position: absolute;
+    height: 80px;
+    left: 577px;
+    top: -4px;
+}
+
+#clip2{
+  position: absolute;
+    height: 80px;
+    left: 610px;
+    top: 24px;
+}
+
+#clip3 {
+  position: absolute;
+  height: 80px;
+  top: 57px;
+  left: 645px;
+}
+
+#clip4 {
+  position: absolute;
+  height: 80px;
+  top: 88px;
+  left: 678px;
+}
+
+#boardclip1{
   height: 40px;
-
-  font-size: 20px;
-
-  text-align: center;
-
-  background-color: #ff9900f2;
-
-  font-family: verdana;
-
-  color: White;
-
-  text-transform: uppercase;
-
+  position: absolute;
+  animation: one 1s 1;
+  animation-play-state: paused ;
+  animation-fill-mode: forwards;
 }
 
-button {
-  margin-left: 25px;
-  height: 30px;
-  width: 80px;
-
+#boardclip2{
+  height: 40px;
+  position: absolute;
+  animation: two 1s 1;
+  animation-play-state:paused ;
+  animation-fill-mode: forwards;
+  
 }
 
-.header-img {
-  margin: 0 0 0 auto;
-  height: 90px;
-
+#boardclip3{
+  height: 40px;
+  position: absolute;
+  animation: three 1s 1;
+  animation-play-state:paused ;
+  animation-fill-mode: forwards;
 }
 
-.header-img2 {
-  height: 90px;
-  margin: 0;
-
+#boardclip4{
+  height: 40px;
+  position: absolute;
+  
+  animation: four 1s 1;
+  animation-play-state:paused ;
+  animation-fill-mode: forwards;
 }
 
-.content {
-  padding: 16px;
+#drafter-out {
+  height: 180px;
+  position: absolute;
+  top: 220px;
+  left: 550px;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+#drafter-in {
+  height: 150px;
+  position: absolute;
+  animation: five 1s 1;
+  animation-play-state:paused ;
+  animation-fill-mode: forwards
 }
 
-.sticky+.content {
-  padding-top: 102px;
+#arrowleft{
+  position: absolute;
+  top: -25px;
 }
 
-h1 {
-  margin-top: 30px;
-  display: inline-block;
-  text-align: center;
-
-  margin: auto;
+#arrowleft1{
+  position: absolute;
+  top: 18px;
+  left: 350px;
 }
 
-.topnav {
-  background-color: #333;
-  overflow: hidden;
+#sheetext{
+  position: absolute;
+  left: 60px;
+  top: -43px;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: black;
-  color: white;
-}
-
-.experiment {
-  margin: 15px;
-}
-
-#downloadButton {
-  text-decoration: none;
-}
-
-#downloadButton:hover {
-  background-color: bisque;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+#cliptext{
+  position: absolute;
+  left: 60px;
+  top: -43px;
 }
 
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-  margin-left: 50px;
+
+/*-------------------------- animation part --------------------------------*/
+
+@keyframes move {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    100% {
+        transform: translate(-375px, 235px);
+    }
 }
 
-a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 16px;
+
+@keyframes moveDrafter {
+
+    0% {
+        top: 0px;
+    }
+
+    100% {
+        top: -510px;
+    }
 }
 
-a:hover {
-  background-color: #ddd;
-  color: black;
+@keyframes moveDrafter1 {
+
+    0% {
+        top: 0px;
+    }
+
+    100% {
+        top: 40px;
+    }
 }
 
-.previous {
-  background-color: #f1f1f1;
-  color: black;
+@keyframes one {
+  0%{
+    top: 110px;
+    left: 50px;
+  }
+  100%{
+    top: 160px;
+    left: 50px;
+  }
+  
 }
 
-.next {
-  background-color: #04AA6D;
-  color: white;
+@keyframes two {
+  0%{
+    top: 110px;
+    left: 353px;
+  }
+  100%{
+    top: 160px;
+    left: 353px;
+  }
 }
 
-.round {
-  border-radius: 50%;
+@keyframes three {
+  0%{
+    top: 440px;
+    left: 50px;
+  }
+  100%{
+    top: 390px;
+    left: 50px;
+  }
 }
 
-.button {
-
-  margin-right: 25px;
-  height: 36px;
-  width: 70px;
+@keyframes four {
+  0%{
+    top: 440px;
+    left: 353px;
+  }
+  100%{
+    top: 390px;
+    left: 353px;
+  }
 }
 
-.next {
-  position: relative;
-  left: 76%;
-  bottom: -165%;
-}
-
-.play {
-  position: relative;
-  left: 26%;
-  bottom: -95%;
-  background-color: #dc260eed;
-  color: #f1f1f1;
-}
-
-.img-with-text {
-  text-align: justify;
-  width: [width of img];
-}
-
-.img-with-text img {
-  display: block;
-  margin: 0 auto;
+@keyframes five {
+  0%{
+    top: 110px;
+    left: 10px;
+  }
+  100%{
+    top: 170px;
+    left: 10px;
+  }
 }
