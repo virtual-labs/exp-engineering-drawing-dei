@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap"
+		rel="stylesheet">
+	<link rel="icon" href="favicon.ico">
+	<title>Civil Engineering - Virtual Lab</title>
+</head>
+
+<body style="margin:0; font-family: verdana; color: #000;">
+	<table align="center">
+		<tr>
+			<td>
+				<div id="simscreen">
+					<div id="title">
+						<h3 id="headtitle">Mini Drafter</h3>
+					</div>
+					<div class="Mainstep" id="drafter" >
+						<span id="draftertxt" style="position: relative; left:80px; top: 35px; "><i
+								class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;Click on the drafter to place
+							it.</span>
+						<img id="drafter1" class="board" src="images/board1.png" alt="picture" width="400"
+							height="280"><br>
+						<img id="arrow" class="board" src="images/arrow.gif" alt="picture" width="30" height="30">
+						<img id="drafterpng" class="board" src="images/drafter.png" alt="picture" width="200"
+							height="200" onclick="draftermove1()">
+						<img id="drafterpng2" class="board" src="images/DRAFTER1.png" alt="picture" width="200"
+							height="200"
+							style="visibility: hidden;animation: moveDrafter1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+						<div id="aboutdrafter">
+							<ul>
+								<li>Mini-drafter consists of an angle formed by two arms with scales marked and rigidly
+									hinged to each
+									other.</li>
+								<li>It is used for drawing
+									horizontal, vertical and inclined lines, parallel and perpendicular lines and for
+									measuring lines and
+									angles.</li>
+							</ul>
+						</div>
+						<input type="button" class="back" id="backid2" style="visibility: hidden;"
+							value="&nbsp;Back&nbsp;" onclick="parent.location='./links.html'" />
+					</div>
+</body>
+<script src="./js/main.js"></script>
+
+</html>
+
+
+
+
+
+
+
