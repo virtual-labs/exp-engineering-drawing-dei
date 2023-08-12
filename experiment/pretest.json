@@ -2,38 +2,99 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which of the following sheet is larger in size?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A0",
+        "b": "A1",
+        "c": "A2",
+        "d": "A4"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "A0"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Harder grade pencils are denoted with B, 2B, 3B, 4B, etc.",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "True",
+        "b": "False"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "False"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the primary unit of measurement for engineering drawings?",
+      "answers": {
+        "a": "Centimetres",
+        "b": "Metres",
+        "c": "Millimetres",
+        "d": "Decimetres"
+      },
+      "explanations": {
+        "c": "Millimetres"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "4. What is the angle set between the scales of the drafter?",
+      "answers": {
+        "a": "30°",
+        "b": "45°",
+        "c": "90°",
+        "d": "60°"
+      },
+      "explanations": {
+        "c": "90°"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. A set square is used in combination with a T- square to draw horizontal lines.",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations": {
+        "a": "True"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Which of the following angle is not possible to be made using a single set square?",
+      "answers": {
+        "a": "30°",
+        "b": "45°",
+        "c": "75°",
+        "d": "90°"
+      },
+      "explanations": {
+        "c": "75°"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "7. The main visible outlines of a drawing are represented by _______.",
+      "answers": {
+        "a": "Long dashed-dotted narrow lines",
+        "b": "Continuous wide lines",
+        "c": "Continuous narrow lines",
+        "d": "Dashed narrow lines"
+      },
+      "explanations": {
+        "b": "Continuous wide lines"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
+    
   ]
 }
