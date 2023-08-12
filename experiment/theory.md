@@ -92,35 +92,5 @@ softness.
 
 Different types of lines are used in engineering drawing which are described as follows:  
 
-Continuous narrow lines 
-
-These lines find their applications while drawing the dimension lines, projection lines, imaginary lines of intersection, extension lines, leader lines, hatching lines, reference lines.  
-
-Continuous wide lines 
-
- 
-
-These lines find their applications while drawing the visible outlines, main lines of representation, visible edges.  
-
-Continuous narrow zig-zag lines 
-
-These lines are used to represent long-break lines in cuts and sections. 
-
-Dashed narrow lines 
-
- 
-
-These lines are used to draw hidden outlines and hidden edges. 
-
-Long-dashed dotted narrow lines 
-
- 
-
-These lines are used to draw centre lines, lines of symmetry, and trajectories. 
-
-Long-dashed dotted wide lines 
-
-Shape 
-
-These lines are used to draw cutting planes at the end. 
+![alt text](https://github.com/[virtual-labs]/[exp-engineering-drawing-dei]/blob/[main]/experiment/images/lines.png?raw=true)
 
