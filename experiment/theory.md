@@ -69,14 +69,7 @@ softness.
 
 3. Border lines are drawn with HB pencil of medium grade.
 
-| Sheet designation  | Trimmed size in mm  | 
-|--------------------|---------------------|
-|    A0              |            841×1159 |
-|    A1              |            594×841  |
-|    A2              |            420×594  |
-|    A3              |            297×420  |
-|    A4              |            210×290  |
-|    A5              |            148×210  |
+![Pencils line image](https://github.com/LionInTheCity14/exp-engineering-drawing-dei/blob/main/experiment/images/pencils.png?raw=true)
 
 4. Visible outlines and edges are drawn with a pencil of H or 2H grade. The construction lines,extension lines, leader lines, and hatching lines are drawn with a pencil of 3H grade. 
 
