@@ -92,5 +92,4 @@ softness.
 
 Different types of lines are used in engineering drawing which are described as follows:  
 
-![alt text](https://github.com/[virtual-labs]/[exp-engineering-drawing-dei]/blob/[main]/experiment/images/lines.png?raw=true)
-
+![lines image](https://github.com/LionInTheCity14/exp-engineering-drawing-dei/blob/main/experiment/images/lines.png?raw=true)
