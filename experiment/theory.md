@@ -93,3 +93,9 @@ softness.
 Different types of lines are used in engineering drawing which are described as follows:  
 
 ![lines image](https://github.com/LionInTheCity14/exp-engineering-drawing-dei/blob/main/experiment/images/lines.png?raw=true)
+
+### Compass-
+
+1. A compass is used to draw circle and arcs
+
+2. A large compass is generally used which has a knee-joint in one leg where the pencil can be adjusted. It is used for constructing bigger circles and for larger dimensions.
