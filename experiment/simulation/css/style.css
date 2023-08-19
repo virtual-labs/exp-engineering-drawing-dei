@@ -59,7 +59,7 @@ body {
     top: 0px;
     height: 600px;
     width: 800px;
-    border: solid 1px;
+    /* border: solid 1px; */
     background-color: #dce5ec;
   }
   
@@ -69,7 +69,7 @@ body {
     top: 0px;
     height: 600px;
     width: 800px;
-    border: solid 1px;
+    /* border: solid 1px; */
     background-color: #dce5ec;
   }
   
@@ -129,7 +129,7 @@ body {
   }
   
   .topnav {
-    background-color: #333;
+    background-color: #dce5ec;
     overflow: hidden;
   }
   
@@ -139,7 +139,7 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 13px 16px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -148,13 +148,13 @@ body {
   
   .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: #dce5ec;
   }
   
   /* Add a color to the active/current link */
   
   .topnav a.active {
-    background-color: black;
+    background-color: #dce5ec;
     color: white;
   }
   
