@@ -411,8 +411,8 @@ body {
 
 #sheetpng {
     position: absolute;
-    margin-left: 138px;
-    margin-top: 42px;
+    margin-left: 35px;
+    margin-top: 7px;
 
 }
 
@@ -425,22 +425,22 @@ body {
 
 #compasspng {
     position: absolute;
-    margin-left: 138px;
-    margin-top: 42px;
+    margin-left: 65px;
+    margin-top: 7px;
 
 }
 
 #pencilpng {
     position: absolute;
-    margin-left: 138px;
-    margin-top: 42px;
+    margin-left: 38px;
+    margin-top: 7px;
 
 }
 
 #setsquarepng {
     position: absolute;
-    margin-left: 138px;
-    margin-top: 42px;
+    margin-left: 38px;
+    margin-top: 7px;
 
 }
 
