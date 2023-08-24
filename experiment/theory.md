@@ -24,12 +24,12 @@ the following standard sizes:
 
 | Sheet designation  | Trimmed size in mm  | 
 |--------------------|---------------------|
-|    A0              |            841×1159 |
-|    A1              |            594×841  |
-|    A2              |            420×594  |
-|    A3              |            297×420  |
-|    A4              |            210×290  |
-|    A5              |            148×210  |
+|    A0              |       841×1159      |
+|    A2              |       420×594       |
+|    A1              |       594×841       |
+|    A3              |       297×420       |
+|    A4              |       210×290       |
+|    A5              |       148×210       |
 
 2. Border lines are drawn to provide a clear working space. The space on the left side is more for the means of binding or filing. 
 
@@ -81,14 +81,14 @@ softness.
 
 3. Set squares also help in dividing circles into six, eight, twelve and twenty-four equal parts.  
 
-### Lines- 
-
-Different types of lines are used in engineering drawing which are described as follows:  
-
-![lines image](https://github.com/LionInTheCity14/exp-engineering-drawing-dei/blob/main/experiment/images/lines.png?raw=true)
-
 ### Compass-
 
 1. A compass is used to draw circle and arcs
 
 2. A large compass is generally used which has a knee-joint in one leg where the pencil can be adjusted. It is used for constructing bigger circles and for larger dimensions.
+
+### Lines- 
+
+Different types of lines are used in engineering drawing which are described as follows:  
+
+![lines image](https://github.com/LionInTheCity14/exp-engineering-drawing-dei/blob/main/experiment/images/lines.png?raw=true)
