@@ -24,12 +24,12 @@ the following standard sizes:
 
 | Sheet designation  | Trimmed size in mm  | 
 |--------------------|---------------------|
-|    A0              |       841×1159      |
-|    A2              |       420×594       |
-|    A1              |       594×841       |
-|    A3              |       297×420       |
-|    A4              |       210×290       |
-|    A5              |       148×210       |
+|    A0              |         841×1159    |
+|    A2              |         420×594     |
+|    A1              |         594×841     |
+|    A3              |         297×420     |
+|    A4              |         210×290     |
+|    A5              |         148×210     |
 
 2. Border lines are drawn to provide a clear working space. The space on the left side is more for the means of binding or filing. 
 
@@ -69,7 +69,7 @@ softness.
 
 3. Border lines are drawn with HB pencil of medium grade.
 
-![Pencils line image](https://github.com/virtual-labs/exp-engineering-drawing-dei/tree/main/experiment/images/pencils.png?raw=true)
+![Pencils line image](https://github.com/virtual-labs/exp-engineering-drawing-dei/blob/main/experiment/images/pencils.png?raw=true)
 
 4. Visible outlines and edges are drawn with a pencil of H or 2H grade. The construction lines,extension lines, leader lines, and hatching lines are drawn with a pencil of 3H grade. 
 
@@ -91,4 +91,4 @@ softness.
 
 Different types of lines are used in engineering drawing which are described as follows:  
 
-![lines image](https://github.com/virtual-labs/exp-engineering-drawing-dei/tree/main/experiment/images/lines.png?raw=true)
+![lines image](https://github.com/virtual-labs/exp-engineering-drawing-dei/blob/main/experiment/images/lines.png?raw=true)
