@@ -4,7 +4,7 @@
 <b>Discipline | <b>Mechanical Engineering.
 :--|:--|
 <b> Lab | <b> Engineering Graphics Lab.
-<b> Experiment|     <b> Conic Sections
+<b> Experiment|     <b> Engineering Drawing
 
 ### About the Experiment 
 
