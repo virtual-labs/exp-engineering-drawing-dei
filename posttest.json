@@ -1,0 +1,145 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which of the following lines are drawn as dashed narrow lines?",
+      "answers": {
+        "a": "Visible outlines",
+        "b": "Hidden outlines",
+        "c": "Dimension lines",
+        "d": "Projection lines"
+      },
+      "explanations": {
+        "b": "Hidden outlines"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "_______ can be used for drawing circles of larger diameters.",
+      "answers": {
+        "a": "Mini drafter",
+        "b": "Protractor",
+        "c": "Lengthening bar compass",
+        "d": "French curves"
+      },
+      "explanations": {
+        "c": "Lengthening bar compass"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following tool is used to draw parallel, perpendicular and angular lines?",
+      "answers": {
+        "a": "Mini drafter",
+        "b": "T-square",
+        "c": "Set square",
+        "d": "Protractor"
+      },
+      "explanations": {
+        "a": "Mini drafter"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the standard trimmed size of the sheet designation A2 in mm?",
+      "answers": {
+        "a": "297 × 420",
+        "b": "420 × 594",
+        "c": "594 × 841",
+        "d": "841 × 1189"
+      },
+      "explanations": {
+        "b": "420 × 594"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "While drawing the border lines, spacing is more on the ____ side.",
+      "answers": {
+        "a": "Right",
+        "b": "Left",
+        "c": "Top",
+        "d": "Bottom"
+      },
+      "explanations": {
+        "b": "Left"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following pencil grade is used to draw visible edges and outlines?",
+      "answers": {
+        "a": "3H",
+        "b": "3H",
+        "c": "4H",
+        "d": "H"
+      },
+      "explanations": {
+        "d": "H"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is the standard size of a title block in mm as recommended by the B.I.S?",
+      "answers": {
+        "a": "200 × 100",
+        "b": "165 × 65",
+        "c": "185 × 65",
+        "d": "170 × 55"
+      },
+      "explanations": {
+        "c": "185 × 65"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The angle between the hatching lines and the reference lines should be _____.",
+      "answers": {
+        "a": "45°",
+        "b": "60°",
+        "c": "90°",
+        "d": "30°"
+      },
+      "explanations": {
+        "a": "45°"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which of the following details is not mentioned in the title block?",
+      "answers": {
+        "a": "Name of the firm",
+        "b": "Projection method",
+        "c": "Size of the sheet",
+        "d": "Scale"
+      },
+      "explanations": {
+        "c": "Size of the sheet"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "What is the edge of the board called on which the T-square is made to slide?",
+      "answers": {
+        "a": "Cutting edge",
+        "b": "Sharpened edge",
+        "c": "Straight edge",
+        "d": "Working edge"
+      },
+      "explanations": {
+        "d": "Working edge"
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    }
+  ]
+}
