@@ -22,20 +22,21 @@ used.
 1. It is the medium on which engineering drawings can be made. These sheets are available in 
 the following standard sizes: 
 
-| Sheet designation  | Trimmed size in mm  | 
-|--------------------|---------------------|
-|    A0              |         841×1159    |
-|    A2              |         420×594     |
-|    A1              |         594×841     |
-|    A3              |         297×420     |
-|    A4              |         210×290     |
-|    A5              |         148×210     |
+| Paper Size | Length (mm) | Width (mm) |
+|------------|-------------|------------|
+| A0         | 1189        | 841        |
+| A1         | 841         | 594        |
+| A2         | 594         | 420        |
+| A3         | 420         | 297        |
+| A4         | 297         | 210        |
+| A5         | 210         | 148        |
 
 2. Border lines are drawn to provide a clear working space. The space on the left side is more for the means of binding or filing. 
 
 ### Title Block-
 
-A title block is made at the bottom right-hand corner of the sheet having a standard size of 150 mm × 50 mm for all types of sheet designations. The title block includes the following details: 
+A title block is placed at the bottom right-hand corner of the drawing sheet, having a standard size of 185 mm × 65 mm (ISO standard). However, an alternative size of 150 mm × 50 mm (institutional) may be used where space is limited, irrespective of the sheet designation.
+ The title block includes the following details: 
 
 • Name of the firm
 • The drawing title
