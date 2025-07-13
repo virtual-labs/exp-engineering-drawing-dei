@@ -9,10 +9,8 @@
         "c": "A2",
         "d": "A4"
       },
-      "explanations": {
-        "a": "A0"
-      },
       "correctAnswer": "a",
+      "explanation": "A0 is the largest sheet in the ISO A series with an area of 1 square meter.",
       "difficulty": "beginner"
     },
     {
@@ -21,10 +19,8 @@
         "a": "True",
         "b": "False"
       },
-      "explanations": {
-        "b": "False"
-      },
       "correctAnswer": "b",
+      "explanation": "B grades are softer and darker; harder pencils are denoted by H series.",
       "difficulty": "beginner"
     },
     {
@@ -35,10 +31,8 @@
         "c": "Millimetres",
         "d": "Decimetres"
       },
-      "explanations": {
-        "c": "Millimetres"
-      },
       "correctAnswer": "c",
+      "explanation": "Engineering drawings use millimetres as the standard unit for precision.",
       "difficulty": "beginner"
     },
     {
@@ -49,10 +43,8 @@
         "c": "90°",
         "d": "60°"
       },
-      "explanations": {
-        "c": "90°"
-      },
       "correctAnswer": "c",
+      "explanation": "The scales in a mini drafter are fixed at 90° for orthogonal line drawing.",
       "difficulty": "intermediate"
     },
     {
@@ -61,10 +53,8 @@
         "a": "True",
         "b": "False"
       },
-      "explanations": {
-        "a": "True"
-      },
       "correctAnswer": "a",
+      "explanation": "The set square rests on the T-square to guide horizontal and vertical lines.",
       "difficulty": "intermediate"
     },
     {
@@ -75,10 +65,8 @@
         "c": "75°",
         "d": "90°"
       },
-      "explanations": {
-        "c": "75°"
-      },
       "correctAnswer": "c",
+      "explanation": "75° is not a standard set square angle and needs combination of two tools.",
       "difficulty": "advanced"
     },
     {
@@ -89,12 +77,9 @@
         "c": "Continuous narrow lines",
         "d": "Dashed narrow lines"
       },
-      "explanations": {
-        "b": "Continuous wide lines"
-      },
       "correctAnswer": "b",
+      "explanation": "Visible outlines are shown with thick continuous lines to stand out clearly.",
       "difficulty": "advanced"
     }
-    
   ]
 }
