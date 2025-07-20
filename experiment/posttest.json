@@ -7,10 +7,12 @@
         "a": "Visible outlines",
         "b": "Hidden outlines",
         "c": "Dimension lines",
-        "d": "Projection lines"
+        "d": "Extension lines"
+      },
+      "explanations": {
+        "b": "Hidden outlines are represented using dashed narrow lines to indicate edges or features that are not visible from the current viewing direction. These lines help communicate the complete geometry of the object."
       },
       "correctAnswer": "b",
-      "explanation": "Hidden outlines are represented using dashed narrow lines to indicate invisible edges.",
       "difficulty": "beginner"
     },
     {
@@ -19,10 +21,12 @@
         "a": "Mini drafter",
         "b": "Protractor",
         "c": "Lengthening bar compass",
-        "d": "French curves"
+        "d": "T-square"
+      },
+      "explanations": {
+        "c": "A lengthening bar compass extends the standard compass radius by adding an extension bar between the pivot and pencil points, allowing for drawing much larger circles that would be impossible with a regular compass."
       },
       "correctAnswer": "c",
-      "explanation": "A lengthening bar compass extends the radius to draw larger circles easily.",
       "difficulty": "beginner"
     },
     {
@@ -33,8 +37,10 @@
         "c": "Set square",
         "d": "Protractor"
       },
+      "explanations": {
+        "a": "Mini drafter is a versatile instrument that combines the functions of T-square, set squares, and protractor. It has two perpendicular scales that can be adjusted to draw parallel lines, perpendicular lines, and lines at various angles."
+      },
       "correctAnswer": "a",
-      "explanation": "Mini drafter combines the functions of set square and T-square for drawing all types of lines.",
       "difficulty": "beginner"
     },
     {
@@ -43,10 +49,12 @@
         "a": "297 × 420",
         "b": "420 × 594",
         "c": "594 × 841",
-        "d": "841 × 1189"
+        "d": "210 × 297"
+      },
+      "explanations": {
+        "b": "According to ISO 216 standards, A2 sheet size is 420 × 594 mm. The ISO A-series follows a consistent ratio where each size is exactly half the area of the previous size when folded along the longer side."
       },
       "correctAnswer": "b",
-      "explanation": "According to ISO standards, A2 sheet size is 420 × 594 mm.",
       "difficulty": "intermediate"
     },
     {
@@ -57,20 +65,24 @@
         "c": "Top",
         "d": "Bottom"
       },
+      "explanations": {
+        "b": "Extra space (typically 20mm instead of 10mm) is left on the left side of the drawing sheet to accommodate binding, hole punching, or filing requirements without interfering with the drawing content."
+      },
       "correctAnswer": "b",
-      "explanation": "Extra space is left on the left side for binding or filing purposes.",
       "difficulty": "intermediate"
     },
     {
       "question": "Which of the following pencil grade is used to draw visible edges and outlines?",
       "answers": {
         "a": "3H",
-        "b": "3H",
+        "b": "2H",
         "c": "4H",
         "d": "H"
       },
+      "explanations": {
+        "d": "H-grade pencil provides the ideal balance for visible outlines - it's hard enough to maintain sharp lines and prevent smudging, yet soft enough to produce clear, moderately dark lines that stand out as main features of the drawing."
+      },
       "correctAnswer": "d",
-      "explanation": "H-grade pencil gives a clean and slightly dark line suitable for visible outlines.",
       "difficulty": "intermediate"
     },
     {
@@ -79,10 +91,12 @@
         "a": "200 × 100",
         "b": "165 × 65",
         "c": "185 × 65",
-        "d": "170 × 55"
+        "d": "210 × 80"
+      },
+      "explanations": {
+        "c": "Bureau of Indian Standards (BIS) recommends 185 × 65 mm as the standard size for title blocks. This provides adequate space for all essential information including drawing title, scale, date, drawn by, checked by, and approval signatures."
       },
       "correctAnswer": "c",
-      "explanation": "BIS recommends 185 × 65 mm as the standard size for title blocks on drawings.",
       "difficulty": "advanced"
     },
     {
@@ -93,8 +107,10 @@
         "c": "90°",
         "d": "30°"
       },
+      "explanations": {
+        "a": "Hatching lines (section lines) are conventionally drawn at 45° to the reference axis or major edges of the sectioned area. This angle provides good visual distinction and is easily recognizable as indicating sectioned material."
+      },
       "correctAnswer": "a",
-      "explanation": "Hatching lines are conventionally drawn at 45° to the reference axis.",
       "difficulty": "advanced"
     },
     {
@@ -103,10 +119,12 @@
         "a": "Name of the firm",
         "b": "Projection method",
         "c": "Size of the sheet",
-        "d": "Scale"
+        "d": "Scale of the drawing"
+      },
+      "explanations": {
+        "c": "Sheet size is not listed in the title block because it is already standardized and can be determined from the sheet designation (A0, A1, A2, etc.). The title block focuses on drawing-specific information rather than physical sheet properties."
       },
       "correctAnswer": "c",
-      "explanation": "Sheet size is not listed in the title block because it is standard and predefined.",
       "difficulty": "advanced"
     },
     {
@@ -117,8 +135,10 @@
         "c": "Straight edge",
         "d": "Working edge"
       },
+      "explanations": {
+        "d": "The working edge is the precisely machined straight edge of the drawing board against which the T-square head slides. This edge must be perfectly straight and smooth to ensure accurate horizontal line drawing and proper alignment."
+      },
       "correctAnswer": "d",
-      "explanation": "The working edge ensures proper alignment of the T-square while drawing.",
       "difficulty": "advanced"
     }
   ]
