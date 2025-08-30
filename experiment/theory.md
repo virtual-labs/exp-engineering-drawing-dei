@@ -38,12 +38,13 @@ the following standard sizes:
 A title block is placed at the bottom right-hand corner of the drawing sheet, having a standard size of 185 mm × 65 mm (ISO standard). However, an alternative size of 150 mm × 50 mm (institutional) may be used where space is limited, irrespective of the sheet designation.
  The title block includes the following details: 
 
-• Name of the firm
-• The drawing title
-• Scale of the drawing
-• Drawing number
-• Initials with dates of person who have designed and approved the sheet. 
-• Symbols denoting the method of projection. 
+- Name of the firm<br>
+The drawing title<br>
+Scale of the drawing<br>
+Drawing number<br>
+Initials with dates of person who have designed and approved the sheet<br>
+Symbols denoting the method of projection
+
 
 ### Mini drafter
 

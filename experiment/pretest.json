@@ -10,7 +10,7 @@
         "d": "A4"
       },
       "explanations": {
-        "a": "A0"
+        "a": "A0 is the largest sheet in the ISO A series with dimensions 841 × 1189 mm and an area of 1 square meter. Each subsequent size (A1, A2, etc.) is exactly half the area of the previous size."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -20,9 +20,10 @@
       "answers": {
         "a": "True",
         "b": "False"
+      
       },
       "explanations": {
-        "b": "False"
+        "b": "This statement is false. B grades (B, 2B, 3B, 4B, etc.) represent softer pencils. Harder pencils are denoted by the H series (H, 2H, 3H, 4H, etc.), where higher numbers indicate harder leads."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -33,10 +34,10 @@
         "a": "Centimetres",
         "b": "Metres",
         "c": "Millimetres",
-        "d": "Decimetres"
+        "d": "Feet"
       },
       "explanations": {
-        "c": "Millimetres"
+        "c": "Millimetres are the standard unit of measurement in engineering drawings because they provide the necessary precision for technical specifications while being practical for dimensioning components and assemblies."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -50,19 +51,21 @@
         "d": "60°"
       },
       "explanations": {
-        "c": "90°"
+        "c": "The scales in a mini drafter are fixed at 90° to each other. This perpendicular arrangement allows for easy drawing of horizontal and vertical lines, as well as accurate measurement in both directions."
       },
       "correctAnswer": "c",
       "difficulty": "intermediate"
     },
     {
-      "question": "A set square is used in combination with a T- square to draw horizontal lines.",
+      "question": "A set square is used in combination with a T-square to draw horizontal lines.",
       "answers": {
         "a": "True",
-        "b": "False"
+        "b": "False",
+        "c": "Only for inclined lines",
+        "d": "Only for vertical lines"
       },
       "explanations": {
-        "a": "True"
+        "a": "This is true. The set square rests against the T-square's blade, using it as a guide. While the T-square itself draws horizontal lines, the set square can be positioned to draw vertical lines and various angles when used in combination."
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
@@ -73,10 +76,10 @@
         "a": "30°",
         "b": "45°",
         "c": "75°",
-        "d": "90°"
+        "d": "60°"
       },
       "explanations": {
-        "c": "75°"
+        "c": "75° cannot be constructed using a single standard set square. Standard set squares have angles of 30°-60°-90° and 45°-45°-90°. To construct 75°, you would need to combine two set squares or use other geometric construction methods."
       },
       "correctAnswer": "c",
       "difficulty": "advanced"
@@ -87,14 +90,13 @@
         "a": "Long dashed-dotted narrow lines",
         "b": "Continuous wide lines",
         "c": "Continuous narrow lines",
-        "d": "Dashed narrow lines"
+        "d": "Long dashed lines"
       },
       "explanations": {
-        "b": "Continuous wide lines"
+        "b": "Main visible outlines are represented by continuous wide lines (thick lines) according to IS standards. These lines clearly distinguish the main features of the object from other elements like hidden lines, center lines, or construction lines."
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
     }
-    
   ]
 }
