@@ -73,7 +73,7 @@ softness.
 
 <p align="center">
   <img src="https://github.com/virtual-labs/exp-engineering-drawing-dei/blob/main/experiment/images/pencils.png?raw=true" 
-       alt="Pencils" height="500">
+       alt="Pencils" height="400">
 </p>
 
 
@@ -99,7 +99,7 @@ Different types of lines are used in engineering drawing which are described as 
 
 <p align="center">
   <img src="https://github.com/virtual-labs/exp-engineering-drawing-dei/blob/main/experiment/images/lines.png?raw=true" 
-       alt="Pencils" height="500">
+       alt="Lines" height="500">
 </p>
 
 
