@@ -73,8 +73,9 @@ softness.
 
 <p align="center">
   <img src="https://github.com/virtual-labs/exp-engineering-drawing-dei/blob/main/experiment/images/pencils.png?raw=true" 
-       alt="Pencils" height="500">
+       alt="Pencils" height="400">
 </p>
+
 
 
 4. Visible outlines and edges are drawn with a pencil of H or 2H grade. The construction lines,extension lines, leader lines, and hatching lines are drawn with a pencil of 3H grade. 
@@ -101,5 +102,6 @@ Different types of lines are used in engineering drawing which are described as 
   <img src="https://github.com/virtual-labs/exp-engineering-drawing-dei/blob/main/experiment/images/lines.png?raw=true" 
        alt="Pencils" height="500">
 </p>
+
 
 
