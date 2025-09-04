@@ -38,12 +38,13 @@ the following standard sizes:
 A title block is placed at the bottom right-hand corner of the drawing sheet, having a standard size of 185 mm × 65 mm (ISO standard). However, an alternative size of 150 mm × 50 mm (institutional) may be used where space is limited, irrespective of the sheet designation.
  The title block includes the following details: 
 
-• Name of the firm
-• The drawing title
-• Scale of the drawing
-• Drawing number
-• Initials with dates of person who have designed and approved the sheet. 
-• Symbols denoting the method of projection. 
+- Name of the firm<br>
+The drawing title<br>
+Scale of the drawing<br>
+Drawing number<br>
+Initials with dates of person who have designed and approved the sheet<br>
+Symbols denoting the method of projection
+
 
 ### Mini drafter
 
@@ -70,7 +71,12 @@ softness.
 
 3. Border lines are drawn with HB pencil of medium grade.
 
-![Pencils line image](https://github.com/virtual-labs/exp-engineering-drawing-dei/blob/main/experiment/images/pencils.png?raw=true)
+<p align="center">
+  <img src="https://github.com/virtual-labs/exp-engineering-drawing-dei/blob/main/experiment/images/pencils.png?raw=true" 
+       alt="Pencils" height="400">
+</p>
+
+
 
 4. Visible outlines and edges are drawn with a pencil of H or 2H grade. The construction lines,extension lines, leader lines, and hatching lines are drawn with a pencil of 3H grade. 
 
@@ -92,4 +98,10 @@ softness.
 
 Different types of lines are used in engineering drawing which are described as follows:  
 
-![lines image](https://github.com/virtual-labs/exp-engineering-drawing-dei/blob/main/experiment/images/lines.png?raw=true)
+<p align="center">
+  <img src="https://github.com/virtual-labs/exp-engineering-drawing-dei/blob/main/experiment/images/lines.png?raw=true" 
+       alt="Pencils" height="500">
+</p>
+
+
+
